@@ -42,5 +42,6 @@ http://www.greatschools.org/gk/articles/u-s-students-compare/
         + preschools don't have set "academic targets"
     - America still #1 in competitiveness
 
-
+(STILL READING)
+https://www.understood.org/en/school-learning/partnering-with-childs-school/instructional-strategies/5-common-techniques-for-helping-struggling-students
    
