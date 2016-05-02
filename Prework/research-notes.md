@@ -42,6 +42,11 @@ http://www.greatschools.org/gk/articles/u-s-students-compare/
         + preschools don't have set "academic targets"
     - America still #1 in competitiveness
 
-(STILL READING)
 https://www.understood.org/en/school-learning/partnering-with-childs-school/instructional-strategies/5-common-techniques-for-helping-struggling-students
-   
+    - students learn well with "multisensory instruction;" hearing, seeing, smelling, etc
+
+- have student use a stylis for some assignments to better grasp concept of something (writing stuff out helps memory)
+- tablets will be for "school use" only, no taking tablets home (these would be used in a "connections" class——class for helping students catch up)
+
+
+
