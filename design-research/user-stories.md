@@ -65,7 +65,7 @@ Leonardo:
     - he clicks "Add Student" button
 
     - Leonardo clicks "New Task" button
-    - he types in Darla's name (somewhat like Slack or Gmail where all names starting with G show up, and he can just click on which student he means)
+    - he types in Darla's name (somewhat like Slack or Gmail where all names starting with D show up, and he can just click on which student he means)
     - he clicks on "Subject"
     - he scrolls to "Math"
     - he scrolls to "Fractions" (each grade's curriculum will be pre-entered via the school administrative bodies)
