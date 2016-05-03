@@ -48,5 +48,14 @@ https://www.understood.org/en/school-learning/partnering-with-childs-school/inst
 - have student use a stylis for some assignments to better grasp concept of something (writing stuff out helps memory)
 - tablets will be for "school use" only, no taking tablets home (these would be used in a "connections" class——class for helping students catch up)
 
+http://info.shiftelearning.com/blog/difference-between-elearning-and-mlearning
+    - elearning: desktop-internet, 20-30min, detailed information (more "textbook style")
+    - mlearning: mobile, quick little snippets (3-10min)
+        + designing for mlearning usually means one concept on the screen at a time
 
+http://www.infoprolearning.com/instructional-recommendation-mobile-learning-elearning-classroom-training/
+    - effective elarning uses "videos, simulations, animations, role-plays, and quizzes will add to the interactivity resulting in enhanced learning"
+
+https://rjacquez.com/10-mlearning-lessons-i-learned-from-reading-mobile-first-by-luke-wroblewski-book-review/
+    - “reinvent ways to meet people’s needs using exciting new tools that are now at your disposal.”
 
