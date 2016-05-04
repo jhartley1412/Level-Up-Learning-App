@@ -1,0 +1,126 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: style-tiles.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1050.9586 px x 750 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:
+Lato Regular (Typekit Fonts)
+Lato Semibold (Typekit Fonts)
+
+-----------------------------------------------------------------------------
+Fonts:
+Righteous (TrueType)
+Arimo (TrueType)
+Montserrat (OTF)
+Myriad Pro (OTF)
+Raleway Medium (TrueType)
+Raleway SemiBold (TrueType)
+Crimson Text Semibold (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/jc/Desktop/o-STUDENT-ON-COMPUTER-facebook
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 5859K, 2000 by 1000 pixels
+Dimensions: 387.991 by 193.996 points 
+Resolution: 371.143 by 371.143 pixels per inch
+
+
+/Users/jc/Desktop/foregin-language-teacher-job-interview
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 682K, 628 by 371 pixels
+Dimensions: 437.449 by 258.43 points 
+Resolution: 103.363 by 103.363 pixels per inch
+
+
+/Users/jc/Desktop/kids-on-tablets
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 197K, 300 by 225 pixels
+Dimensions: 404.415 by 303.311 points 
+Resolution: 53.41 by 53.41 pixels per inch
+
+
+/Users/jc/Desktop/il_340x270.673508202_lvow
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 268K, 340 by 270 pixels
+Dimensions: 345.659 by 274.494 points 
+Resolution: 70.821 by 70.821 pixels per inch
+
+
+/Users/jc/Desktop/maxresdefault
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2700K, 1280 by 720 pixels
+Dimensions: 363.131 by 204.261 points 
+Resolution: 253.792 by 253.792 pixels per inch
+
+
+/Users/jc/Desktop/building-blocks
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1405K, 836 by 574 pixels
+Dimensions: 345.659 by 237.33 points 
+Resolution: 174.137 by 174.137 pixels per inch
+
+
+/Users/jc/Desktop/s-l1000
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2206K, 1000 by 753 pixels
+Dimensions: 359.131 by 270.426 points 
+Resolution: 200.484 by 200.484 pixels per inch
+
+
+/Users/jc/Desktop/kids-running-outside
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 618K, 600 by 352 pixels
+Dimensions: 359.131 by 210.69 points 
+Resolution: 120.29 by 120.29 pixels per inch
+
+
+/Users/jc/Desktop/post-273-0-17668100-1415163376
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1406K, 800 by 600 pixels
+Dimensions: 359.131 by 269.348 points 
+Resolution: 160.387 by 160.387 pixels per inch
