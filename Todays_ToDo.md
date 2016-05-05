@@ -1,5 +1,5 @@
 Thursday, May 5th To Do
 -------------------------
 
-- finish mockcups
+- finish mockcups (do mockup for desktop size)
 - set up jekyll
