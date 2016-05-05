@@ -24,10 +24,10 @@ Protected Fonts that were not packaged:NONE
 
 -----------------------------------------------------------------------------
 Fonts:
-Helvetica Neue (TrueType)
-Helvetica Neue Medium (TrueType)
 Myriad Pro (OTF)
 Myriad Pro Semibold (OTF)
+Helvetica Neue (TrueType)
+Helvetica Neue Medium (TrueType)
 
 -----------------------------------------------------------------------------
 Embedded Fonts:
@@ -40,7 +40,7 @@ NONE
 -----------------------------------------------------------------------------
 Linked Images:
 
-/Users/jc/tiy/Projects/Education-App/mockups/thumbnails/space-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/space-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -49,7 +49,7 @@ Dimensions: 280 by 280 points
 Resolution: 205.714 by 205.714 pixels per inch
 
 
-/Users/jc/tiy/Projects/Education-App/mockups/thumbnails/history-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/history-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -58,7 +58,7 @@ Dimensions: 280 by 280 points
 Resolution: 205.714 by 205.714 pixels per inch
 
 
-/Users/jc/tiy/Projects/Education-App/mockups/thumbnails/money-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/money-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -67,7 +67,7 @@ Dimensions: 280 by 280 points
 Resolution: 205.714 by 205.714 pixels per inch
 
 
-/Users/jc/Desktop/pexels-photo-24895
+/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/pexels-photo-24895
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -76,7 +76,7 @@ Dimensions: 1580.495 by 1580.495 points
 Resolution: 136.666 by 136.666 pixels per inch
 
 
-/Users/jc/Desktop/pexels-photo-24895
+/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/pexels-photo-24895
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
