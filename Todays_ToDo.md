@@ -1,5 +1,6 @@
-Wednesday, May 4th To Do
+Thursday, May 5th To Do
 -------------------------
 
 - finish wireframes
-- (if you have time) start mockups
+- finish mockcups
+- set up jekyll
