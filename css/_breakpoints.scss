@@ -1,0 +1,34 @@
+
+
+@media (min-width: 400px){
+
+
+	.thumbnial-container{
+		max-width: 400px;
+	}
+
+	.footer-container{
+		max-width: 400px;
+		display: block;
+	}
+
+}
+
+
+
+@media(min-width: 500px){
+
+	.thumbnial-container{
+		max-width: 900px;
+	}
+
+	.footer-container{
+		display: none;
+	}
+
+}
+
+
+
+
+

@@ -1,5 +1,7 @@
 
 
+@import "breakpoints";
+
 $constant-color: #F59F06;
 $science-color: #5C3AD8;
 $history-color: #57CE6E;
@@ -92,9 +94,17 @@ h1{
 	background-color: $math-color;
 }
 
+.footer-container{
+	width: 95%;
+	margin: 0 auto;
+}
+
 .footer-icon{
 	width: 44px;
 	height: 44px;
+	display: inline-block;
+	float: left;
+	margin: 1em 6%;
 }
 
 
