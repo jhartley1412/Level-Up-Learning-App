@@ -2,8 +2,10 @@
   .mobile-everything {
     display: block; }
 
-  .thumbnial-container {
-    max-width: 400px; }
+  .thumbnail-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto; }
 
   .tablet-everything {
     display: none; } }
@@ -11,11 +13,17 @@
   .mobile-everything {
     display: none; }
 
-  .thumbnial-container {
+  .thumbnail-container {
     max-width: 900px; }
 
   .tablet-everything {
-    display: block; } }
+    display: block; }
+
+  .thumbnail-container {
+    width: 70%;
+    max-width: 500px;
+    float: left;
+    margin: 0 0 0 5%; } }
 .mobile-header {
   height: 88px;
   border-bottom: 1px solid #999999; }
@@ -47,11 +55,14 @@
   margin: 0 auto; }
 
 .footer-icon {
-  width: 44px;
-  height: 44px;
+  width: 34px;
+  height: 34px;
   display: inline-block;
   float: left;
-  margin: 1em 6%; }
+  margin: 1em 7.5%; }
+
+.mobile-everything, .tablet-everything {
+  overflow: hidden; }
 
 header {
   background-color: #F59F06;
@@ -65,9 +76,7 @@ h1 {
   font-family: Helvetica, "Trebuchet MS", sans-serif;
   color: white; }
 
-.thumbnial-container {
-  width: 90%;
-  margin: 0 auto;
+.thumbnail-container {
   overflow: hidden; }
 
 .thumbnail {
@@ -109,14 +118,18 @@ h1 {
   margin: 0 auto; }
 
 .header-button {
-  width: 58px;
+  width: 48px;
   display: inline-block;
   float: right;
   margin-right: 2em; }
 
-.tablet-container {
-  width: 70%;
-  max-width: 500px;
-  float: left; }
+.tablet-nav {
+  width: 20%;
+  float: left;
+  margin: 2em 2.5% 2em 2.5%; }
+
+.nav-button {
+  width: 48px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

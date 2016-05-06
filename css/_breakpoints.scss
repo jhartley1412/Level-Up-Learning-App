@@ -1,4 +1,6 @@
 
+@import "variables";
+
 
 // DEFAULT MOBILE SIZE
 @media (min-width: 400px){
@@ -8,8 +10,10 @@
 		display: block;
 	}
 
-	.thumbnial-container{
+	.thumbnail-container{
+		width: 90%;
 		max-width: 400px;
+		margin: 0 auto;
 	}
 
 	
@@ -30,7 +34,7 @@
 		display: none;
 	}
 
-	.thumbnial-container{
+	.thumbnail-container{
 		max-width: 900px;
 	}
 
@@ -39,6 +43,13 @@
 	// TABLET
 	.tablet-everything{
 		display: block;
+	}
+
+	.thumbnail-container{
+		width: 70%;
+		max-width: 500px;
+		float: left;
+		margin: 0 0 0 5%;
 	}
 
 }
