@@ -1,29 +1,44 @@
 
 
+// DEFAULT MOBILE SIZE
 @media (min-width: 400px){
-
+	
+	// MOBILE
+	.mobile-everything{
+		display: block;
+	}
 
 	.thumbnial-container{
 		max-width: 400px;
 	}
 
-	.footer-container{
-		max-width: 400px;
-		display: block;
+	
+
+	// TABLET
+	.tablet-everything{
+		display: none;
 	}
 
 }
 
 
-
-@media(min-width: 500px){
+// START OF TABLET SIZE
+@media(min-width: 590px){
+	
+	// MOBILE
+	.mobile-everything{
+		display: none;
+	}
 
 	.thumbnial-container{
 		max-width: 900px;
 	}
 
-	.footer-container{
-		display: none;
+
+
+	// TABLET
+	.tablet-everything{
+		display: block;
 	}
 
 }

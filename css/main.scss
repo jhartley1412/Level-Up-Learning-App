@@ -1,11 +1,15 @@
 
 
-@import "breakpoints";
+@import "breakpoints",
+		"variables",
+		"mobile";
 
-$constant-color: #F59F06;
-$science-color: #5C3AD8;
-$history-color: #57CE6E;
-$math-color: #1A92FF;
+
+
+header{
+	background-color: $constant-color;
+	overflow: hidden;
+}
 
 h1{
 	margin: 0.5em auto;
@@ -16,38 +20,6 @@ h1{
 	color: white;
 }
 
-
-
-.mobile-header{
-	height: 88px;
-	border-bottom: 1px solid #999999;
-	background-color: $constant-color;
-}
-
-.mobile-footer{
-	width: 100%;
-	height: 98px;
-	position: fixed;
-	bottom: 0;
-	background-color: $constant-color;
-}
-
-.phone-container{
-	overflow: scroll;
-}
-
-.status-bar{
-	height: 40px;
-	background-color: #FFFFFF;
-}
-
-.status-bar-time{
-	font-family: Helvetica, "Trebuchet MS", sans-serif;
-	font-size: 0.9em;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 0.8em;
-}
 
 .thumbnial-container{
 	width: 90%;
@@ -94,18 +66,30 @@ h1{
 	background-color: $math-color;
 }
 
-.footer-container{
-	width: 95%;
+.tablet-header{
+	width: 100%;
+}
+
+.tablet-header-container{
+	width: 90%;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
-.footer-icon{
-	width: 44px;
-	height: 44px;
+.header-button{
+	width: 58px;
 	display: inline-block;
-	float: left;
-	margin: 1em 6%;
+	float: right;
+	margin-right: 2em;
 }
+
+.tablet-container{
+	width: 70%;
+	max-width: 500px;
+	float: left;
+}
+
+
 
 
 
