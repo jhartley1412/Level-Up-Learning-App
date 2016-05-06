@@ -1,5 +1,5 @@
-Thursday, May 5th To Do
+Friday, May 5th To Do
 -------------------------
 
 - finish mockcups (do mockup for desktop size)
-- set up jekyll
+- create logo

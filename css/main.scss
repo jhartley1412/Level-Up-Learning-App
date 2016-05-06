@@ -1,0 +1,105 @@
+
+
+$constant-color: #F59F06;
+$science-color: #5C3AD8;
+$history-color: #57CE6E;
+$math-color: #1A92FF;
+
+h1{
+	margin: 0.5em auto;
+	font-size: 1.3em;
+	font-weight: 300;
+	text-align: center;
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	color: white;
+}
+
+
+
+.mobile-header{
+	height: 88px;
+	border-bottom: 1px solid #999999;
+	background-color: $constant-color;
+}
+
+.mobile-footer{
+	width: 100%;
+	height: 98px;
+	position: fixed;
+	bottom: 0;
+	background-color: $constant-color;
+}
+
+.phone-container{
+	overflow: scroll;
+}
+
+.status-bar{
+	height: 40px;
+	background-color: #FFFFFF;
+}
+
+.status-bar-time{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0.8em;
+}
+
+.thumbnial-container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.thumbnail{
+	width: 45%;
+	margin-top: 2em;
+	box-sizing: border-box;
+	float: left;
+	border-radius: 15px;
+	
+	&:first-child{
+		margin-right: 5%;
+	}
+
+	img{
+		width: 100%;
+	}
+}
+
+.thumbnail-title{
+	margin: 0 auto;
+	margin-top: 0.2em;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+
+.science{
+	border: 8px solid $science-color;
+	background-color: $science-color;
+}
+
+.history{
+	border: 8px solid $history-color;
+	background-color: $history-color;
+}
+
+.math{
+	border: 8px solid $math-color;
+	background-color: $math-color;
+}
+
+.footer-icons{
+	width: 44px;
+	color: white;
+}
+
+
+
+
+
+
+
