@@ -24,13 +24,11 @@ Protected Fonts that were not packaged:NONE
 
 -----------------------------------------------------------------------------
 Fonts:
+Helvetica Neue (TrueType)
+Helvetica Neue Medium (TrueType)
 Arimo (TrueType)
 Arimo Bold (TrueType)
 Montserrat Bold (OTF)
-Helvetica Neue (TrueType)
-Helvetica Neue Medium (TrueType)
-Myriad Pro (OTF)
-Myriad Pro Semibold (OTF)
 
 -----------------------------------------------------------------------------
 Embedded Fonts:
@@ -43,37 +41,37 @@ NONE
 -----------------------------------------------------------------------------
 Linked Images:
 
-/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/history-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/space-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
 Size: 1875K, 800 by 800 pixels
-Dimensions: 512.694 by 512.694 points 
-Resolution: 112.348 by 112.348 pixels per inch
+Dimensions: 468.661 by 468.661 points 
+Resolution: 122.903 by 122.903 pixels per inch
 
 
-/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/space-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/money-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
 Size: 1875K, 800 by 800 pixels
-Dimensions: 512.694 by 512.694 points 
-Resolution: 112.348 by 112.348 pixels per inch
+Dimensions: 494.267 by 494.267 points 
+Resolution: 116.536 by 116.536 pixels per inch
 
 
-/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/money-thumbnail.jpg
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/history-thumbnail.jpg
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
 Size: 1875K, 800 by 800 pixels
-Dimensions: 512.694 by 512.694 points 
-Resolution: 112.348 by 112.348 pixels per inch
+Dimensions: 474.419 by 474.419 points 
+Resolution: 121.412 by 121.412 pixels per inch
 
 
-/Users/jc/tiy/Projects/Education-App/mockups/mobile-lessons-mockup_Folder/Links/pexels-photo-24895
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/pexels-photo-24895
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
 Size: 26367K, 3000 by 3000 pixels
-Dimensions: 3345.387 by 3345.387 points 
-Resolution: 64.567 by 64.567 pixels per inch
+Dimensions: 3379.929 by 3379.929 points 
+Resolution: 63.907 by 63.907 pixels per inch
