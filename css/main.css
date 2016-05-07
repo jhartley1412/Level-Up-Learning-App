@@ -45,15 +45,16 @@
   overflow: scroll; }
 
 .status-bar {
-  height: 40px;
+  height: 25px;
   background-color: #FFFFFF; }
 
 .status-bar-time {
-  font-family: Helvetica, "Trebuchet MS", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 0.9em;
+  font-weight: 300;
   text-align: center;
   margin: 0 auto;
-  padding-top: 0.8em; }
+  padding-top: 4px; }
 
 .footer-container {
   width: 95%;
@@ -75,12 +76,12 @@ header {
   overflow: hidden; }
 
 h1 {
-  margin: 0.5em auto;
+  margin: 0.7em auto;
   font-size: 1.3em;
   font-weight: 300;
   text-align: center;
-  font-family: Helvetica, "Trebuchet MS", sans-serif;
-  color: white; }
+  font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff; }
 
 .thumbnail-container {
   overflow: hidden; }
@@ -94,13 +95,15 @@ h1 {
   .thumbnail:first-child {
     margin-right: 5%; }
   .thumbnail img {
-    width: 100%; }
+    width: 100%;
+    border-radius: 15px 15px 0 0; }
 
 .thumbnail-title {
   margin: 0 auto;
   margin-top: 0.2em;
   text-align: center;
   color: white;
+  font-family: 'Arimo', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 200; }
 
 .science {

@@ -19,16 +19,17 @@
 }
 
 .status-bar{
-	height: 40px;
+	height: 25px;
 	background-color: #FFFFFF;
 }
 
 .status-bar-time{
-	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 0.9em;
+	font-weight: 300;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 0.8em;
+	padding-top: 4px;
 }
 
 .footer-container{
