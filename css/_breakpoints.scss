@@ -23,10 +23,16 @@
 		display: none;
 	}
 
+
+	// DESKTOP
+	.desktop-everything{
+		display: none;
+	}
+
 }
 
 
-// START OF TABLET SIZE
+// TABLET SIZE
 @media(min-width: 590px){
 	
 	// MOBILE
@@ -45,10 +51,29 @@
 		display: block;
 	}
 
-	
 
+	// DESKTOP
+	.desktop-everything{
+		display: none;
+	}
 }
 
+
+// DESKTOP SIZE
+@media (min-width: 970px){
+
+	// TABLET
+	.tablet-everything{
+		display: none;
+	}
+
+
+	// DESKTOP
+	.desktop-everything{
+		display: block;
+	}
+
+}
 
 
 

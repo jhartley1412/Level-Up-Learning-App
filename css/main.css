@@ -8,6 +8,9 @@
     margin: 0 auto; }
 
   .tablet-everything {
+    display: none; }
+
+  .desktop-everything {
     display: none; } }
 @media (min-width: 590px) {
   .mobile-everything {
@@ -17,6 +20,15 @@
     max-width: 900px; }
 
   .tablet-everything {
+    display: block; }
+
+  .desktop-everything {
+    display: none; } }
+@media (min-width: 970px) {
+  .tablet-everything {
+    display: none; }
+
+  .desktop-everything {
     display: block; } }
 .mobile-header {
   height: 88px;
