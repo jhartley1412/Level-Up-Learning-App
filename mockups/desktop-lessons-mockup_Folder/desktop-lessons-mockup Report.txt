@@ -1,0 +1,84 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: desktop-lessons-mockup.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1024 px x 889.8469 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Arimo (TrueType)
+Arimo Bold (TrueType)
+Montserrat Bold (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/pexels-photo-24895
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 26367K, 3000 by 3000 pixels
+Dimensions: 1340.959 by 1340.959 points 
+Resolution: 161.079 by 161.079 pixels per inch
+
+
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/history-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1875K, 800 by 800 pixels
+Dimensions: 225.262 by 225.262 points 
+Resolution: 255.702 by 255.702 pixels per inch
+
+
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/money-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1875K, 800 by 800 pixels
+Dimensions: 234.686 by 234.686 points 
+Resolution: 245.434 by 245.434 pixels per inch
+
+
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/space-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1875K, 800 by 800 pixels
+Dimensions: 222.528 by 222.528 points 
+Resolution: 258.844 by 258.844 pixels per inch
+
+
+/Users/jc/tiy/Projects/Education-App/mockups/tablet-lessons-mockup_Folder/Links/pexels-photo-24895
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 26367K, 3000 by 3000 pixels
+Dimensions: 1050.172 by 1050.172 points 
+Resolution: 205.681 by 205.681 pixels per inch
