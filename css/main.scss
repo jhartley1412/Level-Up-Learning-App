@@ -104,10 +104,11 @@ h3{
 }
 
 .nav-button{
-	width: 100%;
+	width: 50%;
 	margin: 0;
 	margin-bottom: 1em;
 	overflow: hidden;
+	float: left;
 
 	.badges-icon, .completed-icon{
 		width: 40px;

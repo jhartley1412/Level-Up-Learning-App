@@ -52,9 +52,6 @@
   .tablet-everything {
     display: block; }
 
-  .badges-icon {
-    margin-left: -15px; }
-
   .desktop-everything {
     display: none; } }
 @media (min-width: 970px) {
@@ -216,10 +213,11 @@ h3 {
   background-color: #1A92FF; }
 
 .nav-button {
-  width: 100%;
+  width: 50%;
   margin: 0;
   margin-bottom: 1em;
-  overflow: hidden; }
+  overflow: hidden;
+  float: left; }
   .nav-button .badges-icon, .nav-button .completed-icon {
     width: 40px;
     margin-left: 1em;
