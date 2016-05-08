@@ -23,6 +23,7 @@
 	}
 
 	.dashboard-border{
+		width: 90%;
 		margin: 1em auto 0 auto;
 		padding: 0.5em;
 		max-width: 400px;
@@ -30,6 +31,10 @@
 
 	.dashboard-text{
 		padding: 0.2em 0.8em;
+
+		p{
+			margin-top: 0.2em;
+		}
 	}
 
 	
@@ -46,6 +51,10 @@
 	}
 
 }
+
+
+
+
 
 
 // TABLET SIZE
@@ -70,6 +79,7 @@
 	}
 
 	.dashboard-border{
+		width: 100%;
 		margin: 2.2em auto 0 0;
 		padding: 0.5em;
 		max-width: 900px;
@@ -77,11 +87,20 @@
 
 	.dashboard-text{
 		padding: 0.2em 0.8em;
+
+		p{
+			margin: 2em auto 0 10px;
+		}
 	}
 
 	.tablet-everything{
 		display: block;
 	}
+
+	.badges-icon{
+		margin-left: -15px;
+	}
+
 
 
 	// DESKTOP
@@ -89,6 +108,10 @@
 		display: none;
 	}
 }
+
+
+
+
 
 
 // DESKTOP SIZE

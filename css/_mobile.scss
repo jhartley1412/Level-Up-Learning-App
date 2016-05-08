@@ -11,7 +11,6 @@
 }
 
 .dashboard-border{
-	width: 90%;
 	box-sizing: border-box;
 	border: 2px solid $outline-color;
 }
@@ -21,10 +20,6 @@
 	box-sizing: border-box;
 	background-color: $bg-color;
 	line-height: 1.5;
-
-	p{
-		margin-top: 0.2em;
-	}
 }
 
 

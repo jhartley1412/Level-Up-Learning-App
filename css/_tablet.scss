@@ -4,23 +4,49 @@
 .tablet-nav{
 	width: 30%;
 	float: left;
+	margin: 1.8em auto 0 auto;
+}
+
+.tablet-header{
+	width: 100%;
+}
+
+.tablet-header-container{
+	width: 100%;
+	max-width: 750px;
 	margin: 0 auto;
 }
 
-.nav-button{
-	width: 54px;
+.button-container{
+	width: 30%;
+	float: right;
+}
+
+.header-button{
+	width: 48px;
 	margin: 0 auto;
-	margin-bottom: 1em;
-	top: 0;
 }
 
-.badges-icon{
-	width: 58px;
-	margin-left: -5px;
+.tablet-container{
+	width: 100%;
+	max-width: 750px;
+	margin: 2em auto;
+	overflow: hidden;
+
+	h2{
+		width: 70%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: 10px;
+		float: left;
+	}
 }
 
-.completed-icon{
-	width: 58px;
+.lessons-container{
+	width: 70%;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
 }
 
 
