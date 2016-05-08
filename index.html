@@ -114,8 +114,23 @@
 	<div class="dropdown-menu">
 		
 		<a href="#">
+		<div class="dropdown-button-container badges-container">
+
 			<img class="dropdown-button" src="./images/icon-badges.svg">
-			Badge Collection
+
+			<p> Badge Collection </p>
+
+		</div>
+		</a>
+
+		<a href="#">
+		<div class="dropdown-button-container completed-container">
+
+			<img class="dropdown-button" src="./images/icon-completed.svg">
+			
+			<p> Completed Lessons </p>
+
+		</div>
 		</a>
 
 
@@ -135,7 +150,7 @@
 			<div class="button-container">
 
 				<a href="#">
-				<div class="header-button">
+				<div class="header-button dropdown-icon">
 					<img src="./images/icon-dropdown.svg">
 				</div>
 				</a>
@@ -256,6 +271,26 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$('.dropdown-icon').click(function(e){
+
+			$('.dropdown-menu').show();
+
+
+			$('.dropdown-menu').mouseleave(function(e){
+
+				$('.dropdown-menu').hide();
+
+			});
+
+		});
+
+	});
+
+</script>
 
 
 </body>

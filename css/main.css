@@ -127,13 +127,23 @@
   z-index: 2;
   position: absolute;
   background-color: #F59F06;
-  width: 150px;
+  width: 200px;
   padding: 0.5em;
   top: 8%;
-  right: 0; }
+  right: 0;
+  display: none; }
+  .dropdown-menu p {
+    color: #fff;
+    float: left;
+    margin: 0.4em 0 0 0.5em; }
+
+.dropdown-button-container {
+  overflow: hidden;
+  margin: 1.7em 0 1em 0; }
 
 .dropdown-button {
-  width: 38px; }
+  width: 30px;
+  float: left; }
 
 .tablet-container {
   width: 100%;
