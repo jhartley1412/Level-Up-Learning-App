@@ -1,41 +1,46 @@
 
 @import "variables";
 
-// DASHBOARD / CONSTANTS
 
-.mobile-header{
-	height: 88px;
-	border-bottom: 1px solid #999999;
-}
-
-.phone-container{
-	overflow: scroll;
-}
-
-.mobile-footer{
+.lesson-text{
 	width: 100%;
-	height: 68px;
-	position: fixed;
-	bottom: 0;
-	border-top: 2px solid $header-color;
+	box-sizing: border-box;
+	background-color: $bg-color;
+	line-height: 1.5;
+	padding: 0.2em 0.8em;
+
+	p{
+		margin-top: 0.2em;
+	}
 }
 
 
-.footer-container{
-	width: 95%;
+.bottom-button-container{
+	width: 90%;
 	max-width: 400px;
-	margin: 0 auto;
+	margin: 1em auto;
+	overflow: hidden;
 }
 
-.footer-icon{
-	width: 40px;
-	height: 40px;
-	display: inline-block;
+.bottom-lesson-button{
+	width: 45%;
+	max-width: 150px;
+	margin: 0.2em 2.5%;
+	box-sizing: border-box;
+	border: 2px solid $outline-color;
+	padding: 0 0.2em;
+	text-align: center;
+}
+
+.back-button{
 	float: left;
-	margin: 0.5em 6.8%;
 }
 
-// SOLAR SYSTEM PAGES
+.continue-button{
+	float: right;
+}
+
+
 
 // planets all container
 .planets-container{
@@ -46,16 +51,16 @@
 
 // individual planet container 
 .planet-row{
-	width: 100%;
+	width: 110%;
 	height: 100px;
-	margin: 0.5em auto;
+	margin: 1em auto 2em auto;
 	overflow: visible;
 	position: relative;
 }
 
 .ind-planet-container-outer{
-	width: 20%;
-	margin: 1em 5%;
+	width: 10%;
+	margin: 1em 10%;
 	float: left;
 
 	p{
@@ -69,8 +74,12 @@
 	bottom: 0;
 }
 
-.ind-saturn{
-	height: 100%;
+.inner-changes{
+	margin-left: -7px;
+}
+
+.inner-saturn{
+	margin-left: -17px;
 }
 
 // individual planet
@@ -87,6 +96,7 @@
 	width: 50px;
 }
 
+
 .jupiter{
 	width: 70px;
 }
@@ -94,9 +104,6 @@
 .saturn{
 	width: 80px;
 }
-
-
-
 
 
 

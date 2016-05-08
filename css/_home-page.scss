@@ -1,0 +1,206 @@
+
+@import "variables";
+
+
+// DASHBOARD PAGE INFORMATIVE TEXT
+
+.dashboard-border{
+	box-sizing: border-box;
+	border: 2px solid $outline-color;
+}
+
+.dashboard-text{
+	width: 100%;
+	box-sizing: border-box;
+	background-color: $bg-color;
+	line-height: 1.5;
+}
+
+
+// THUMBNAIL LESSONS
+
+.thumbnail-container{
+	overflow: hidden;
+}
+
+.thumbnail{
+	margin-top: 2em;
+	box-sizing: border-box;
+	float: left;
+	border-radius: 15px;
+
+	img{
+		width: 100%;
+		border-radius: 15px 15px 0 0;
+	}
+}
+
+.thumbnail-title{
+	margin: 0 auto;
+	margin-top: 0.2em;
+	text-align: center;
+	color: white;
+	font-family: 'Arimo', "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 200;
+}
+
+.science{
+	background-color: $science-color;
+}
+
+.history{
+	background-color: $history-color;
+}
+
+.math{
+	background-color: $math-color;
+}
+
+
+// ———————————————————————————————————————————————————————————
+
+// MOBILE
+
+.mobile-header{
+	height: 88px;
+	border-bottom: 1px solid #999999;
+}
+
+.phone-container{
+	overflow: scroll;
+}
+
+.mobile-footer{
+	width: 100%;
+	height: 68px;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid $header-color;
+}
+
+
+.footer-container{
+	width: 95%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.footer-icon{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin: 0.5em 6.8%;
+}
+
+// ———————————————————————————————————————————————————————————
+
+// TABLET
+
+.tablet-container{
+	width: 90%;
+	max-width: 550px;
+	margin: 2em auto;
+	overflow: hidden;
+
+	h2{
+		width: 70%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: 10px;
+		float: left;
+	}
+}
+
+.tablet-header{
+	width: 100%;
+	z-index: 0;
+	position: relative;
+}
+
+.tablet-header-container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.dropdown-menu{
+	z-index: 2;
+	position: absolute;
+	background-color: $header-color;
+	width: 200px;
+	padding: 0.5em;
+	top: 8%;
+	right: 0;
+	display: none;
+
+	p{
+		color: #fff;
+		float: left;
+		margin: 0.4em 0 0 0.5em;
+	}
+}
+
+.dropdown-button-container{
+	overflow: hidden;
+	margin: 1.7em 0 1em 0;
+}
+
+.dropdown-button{
+	width: 30px;
+	float: left;
+}
+
+
+
+// ———————————————————————————————————————————————————————————
+
+// DESKTOP
+
+.desktop-header-container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.desktop-container{
+	width: 90%;
+	max-width: 1000px;
+	margin: 2em auto;
+}
+
+.desktop-left-container{
+	width: 70%;
+	float: left;
+}
+
+.desktop-nav{
+	width: 25%;
+	margin-left: 5%;
+	box-sizing: border-box;
+	padding: 0.5em;
+	border: 2px solid $outline-color;
+	float: left; 
+}
+
+.nav-button-container{
+	margin: 1em auto;
+	float: left;
+
+	img{
+		width: 35px;
+		float: left;
+	}
+
+	p{
+		margin: 0 auto;
+		padding: 0.5em 0.5em 0 0.5em;
+		float: left;
+	}
+}
+
+
+
+
+
