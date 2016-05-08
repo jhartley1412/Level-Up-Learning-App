@@ -7,7 +7,7 @@
 
 
 
-.mobile-everything, .tablet-everything{
+.mobile-everything, .tablet-everything, .desktop-everything{
 	overflow: hidden;
 }
 
@@ -45,6 +45,8 @@ h3{
 }
 
 
+// STATUS BAR
+
 .status-bar{
 	height: 25px;
 }
@@ -58,7 +60,34 @@ h3{
 	padding-top: 5px;
 }
 
+
+
+// HEADER BUTTONS & NAV
+.button-container{
+	width: 30%;
+	float: right;
+}
+
+
+// DASHBOARD PAGE INFORMATIVE TEXT
+
+.dashboard-border{
+	box-sizing: border-box;
+	border: 2px solid $outline-color;
+}
+
+.dashboard-text{
+	width: 100%;
+	box-sizing: border-box;
+	background-color: $bg-color;
+	line-height: 1.5;
+}
+
+
+// THUMBNAIL LESSONS
+
 .thumbnail-container{
+	margin: 0 auto;
 	overflow: hidden;
 }
 
@@ -89,40 +118,25 @@ h3{
 }
 
 .science{
-	border: 8px solid $science-color;
 	background-color: $science-color;
 }
 
 .history{
-	border: 8px solid $history-color;
 	background-color: $history-color;
 }
 
 .math{
-	border: 8px solid $math-color;
 	background-color: $math-color;
 }
 
-.nav-button{
-	width: 50%;
-	margin: 0;
-	margin-bottom: 1em;
+
+
+.desktop-header-container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 	overflow: hidden;
-	float: left;
-
-	.badges-icon, .completed-icon{
-		width: 40px;
-		margin-left: 1em;
-		float: left;
-	}
-
-	h3{
-		margin-right: 1em;
-		float: left;
-	}
 }
-
-
 
 
 

@@ -8,8 +8,7 @@
 
   .thumbnail-container {
     width: 90%;
-    max-width: 400px;
-    margin: 0 auto; }
+    max-width: 400px; }
 
   .dashboard-border {
     width: 90%;
@@ -22,6 +21,15 @@
     .dashboard-text p {
       margin-top: 0.2em; }
 
+  .science {
+    border: 8px solid #5C3AD8; }
+
+  .history {
+    border: 8px solid #57CE6E; }
+
+  .math {
+    border: 8px solid #1A92FF; }
+
   .tablet-everything {
     display: none; }
 
@@ -31,18 +39,23 @@
   .mobile-everything {
     display: none; }
 
-  .thumbnail-container {
-    max-width: 900px; }
-
   .status-bar {
     background-color: #1F1E1E;
     color: #fff; }
+
+  .header-button {
+    width: 38px;
+    float: right;
+    margin: 0 auto;
+    padding: 0.2em 0; }
+    .header-button:last-child {
+      margin-left: 2em; }
 
   .dashboard-border {
     width: 100%;
     margin: 2.2em auto 0 0;
     padding: 0.5em;
-    max-width: 900px; }
+    max-width: 500px; }
 
   .dashboard-text {
     padding: 0.2em 0.8em; }
@@ -52,6 +65,21 @@
   .tablet-everything {
     display: block; }
 
+  .thumbnail-container {
+    max-width: 550px; }
+
+  .thumbnail {
+    max-width: 210px; }
+
+  .science {
+    border: 12px solid #5C3AD8; }
+
+  .history {
+    border: 12px solid #57CE6E; }
+
+  .math {
+    border: 12px solid #1A92FF; }
+
   .desktop-everything {
     display: none; } }
 @media (min-width: 970px) {
@@ -59,23 +87,27 @@
     display: none; }
 
   .desktop-everything {
-    display: block; } }
+    display: block; }
+
+  .header-button {
+    width: 50%;
+    box-sizing: border-box;
+    margin-right: 2em; }
+    .header-button:last-child {
+      margin-left: auto; }
+    .header-button img {
+      width: 30px;
+      float: right;
+      padding: 0.5em 0.8em; }
+    .header-button p {
+      color: #fff;
+      float: right; } }
 .mobile-header {
   height: 88px;
   border-bottom: 1px solid #999999; }
 
 .phone-container {
   overflow: scroll; }
-
-.dashboard-border {
-  box-sizing: border-box;
-  border: 2px solid #FBCC33; }
-
-.dashboard-text {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #F0F0F0;
-  line-height: 1.5; }
 
 .mobile-footer {
   width: 100%;
@@ -96,10 +128,17 @@
   float: left;
   margin: 0.5em 6.8%; }
 
-.tablet-nav {
-  width: 30%;
-  float: left;
-  margin: 1.8em auto 0 auto; }
+.tablet-container {
+  width: 90%;
+  max-width: 550px;
+  margin: 2em auto;
+  overflow: hidden; }
+  .tablet-container h2 {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    float: left; }
 
 .tablet-header {
   width: 100%;
@@ -110,18 +149,6 @@
   width: 90%;
   margin: 0 auto;
   overflow: hidden; }
-
-.button-container {
-  width: 30%;
-  float: right; }
-
-.header-button {
-  width: 38px;
-  margin: 0 auto;
-  float: right;
-  padding: 0.2em 0; }
-  .header-button:last-child {
-    margin-left: 2em; }
 
 .dropdown-menu {
   z-index: 2;
@@ -145,25 +172,7 @@
   width: 30px;
   float: left; }
 
-.tablet-container {
-  width: 100%;
-  max-width: 750px;
-  margin: 2em auto;
-  overflow: hidden; }
-  .tablet-container h2 {
-    width: 70%;
-    display: inline-block;
-    margin: 0 auto;
-    margin-left: 10px;
-    float: left; }
-
-.lessons-container {
-  width: 70%;
-  float: left;
-  display: inline-block;
-  overflow: hidden; }
-
-.mobile-everything, .tablet-everything {
+.mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
 
 body {
@@ -205,7 +214,22 @@ h3 {
   margin: 0 auto;
   padding-top: 5px; }
 
+.button-container {
+  width: 30%;
+  float: right; }
+
+.dashboard-border {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33; }
+
+.dashboard-text {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  line-height: 1.5; }
+
 .thumbnail-container {
+  margin: 0 auto;
   overflow: hidden; }
 
 .thumbnail {
@@ -229,29 +253,18 @@ h3 {
   font-weight: 200; }
 
 .science {
-  border: 8px solid #5C3AD8;
   background-color: #5C3AD8; }
 
 .history {
-  border: 8px solid #57CE6E;
   background-color: #57CE6E; }
 
 .math {
-  border: 8px solid #1A92FF;
   background-color: #1A92FF; }
 
-.nav-button {
-  width: 50%;
-  margin: 0;
-  margin-bottom: 1em;
-  overflow: hidden;
-  float: left; }
-  .nav-button .badges-icon, .nav-button .completed-icon {
-    width: 40px;
-    margin-left: 1em;
-    float: left; }
-  .nav-button h3 {
-    margin-right: 1em;
-    float: left; }
+.desktop-header-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */

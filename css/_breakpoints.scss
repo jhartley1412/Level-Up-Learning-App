@@ -19,7 +19,6 @@
 	.thumbnail-container{
 		width: 90%;
 		max-width: 400px;
-		margin: 0 auto;
 	}
 
 	.dashboard-border{
@@ -37,8 +36,19 @@
 		}
 	}
 
-	
+	.science{
+		border: 8px solid $science-color;;
+	}
 
+	.history{
+		border: 8px solid $history-color;
+	}
+
+	.math{
+		border: 8px solid $math-color;
+	}
+
+	
 	// TABLET
 	.tablet-everything{
 		display: none;
@@ -66,10 +76,6 @@
 		display: none;
 	}
 
-	.thumbnail-container{
-		max-width: 900px;
-	}
-
 
 	// TABLET
 
@@ -78,11 +84,22 @@
 		color: #fff;
 	}
 
+	.header-button{
+		width: 38px;
+		float: right;
+		margin: 0 auto;
+		padding: 0.2em 0;
+
+		&:last-child{
+			margin-left: 2em;
+		}
+	}
+
 	.dashboard-border{
 		width: 100%;
 		margin: 2.2em auto 0 0;
 		padding: 0.5em;
-		max-width: 900px;
+		max-width: 500px;
 	}
 
 	.dashboard-text{
@@ -96,6 +113,26 @@
 	.tablet-everything{
 		display: block;
 	}
+	
+	.thumbnail-container{
+		max-width: 550px;
+	}
+
+	.thumbnail{
+		max-width: 210px;
+	}
+
+	.science{
+		border: 12px solid $science-color;;
+	}
+
+	.history{
+		border: 12px solid $history-color;
+	}
+
+	.math{
+		border: 12px solid $math-color;
+	}
 
 
 
@@ -104,7 +141,6 @@
 		display: none;
 	}
 }
-
 
 
 
@@ -122,6 +158,27 @@
 	// DESKTOP
 	.desktop-everything{
 		display: block;
+	}
+
+	.header-button{
+		width: 50%;
+		box-sizing: border-box;
+		margin-right: 2em;
+
+		&:last-child{
+			margin-left: auto;
+		}
+
+		img{
+			width: 30px;
+			float: right;
+			padding: 0.5em 0.8em;
+		}
+
+		p{
+			color: #fff;
+			float: right;
+		}
 	}
 
 }

@@ -1,10 +1,20 @@
 
 @import "variables";
 
-.tablet-nav{
-	width: 30%;
-	float: left;
-	margin: 1.8em auto 0 auto;
+
+.tablet-container{
+	width: 90%;
+	max-width: 550px;
+	margin: 2em auto;
+	overflow: hidden;
+
+	h2{
+		width: 70%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: 10px;
+		float: left;
+	}
 }
 
 .tablet-header{
@@ -17,22 +27,6 @@
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
-}
-
-.button-container{
-	width: 30%;
-	float: right;
-}
-
-.header-button{
-	width: 38px;
-	margin: 0 auto;
-	float: right;
-	padding: 0.2em 0;
-
-	&:last-child{
-		margin-left: 2em;
-	}
 }
 
 .dropdown-menu{
@@ -62,27 +56,8 @@
 	float: left;
 }
 
-.tablet-container{
-	width: 100%;
-	max-width: 750px;
-	margin: 2em auto;
-	overflow: hidden;
 
-	h2{
-		width: 70%;
-		display: inline-block;
-		margin: 0 auto;
-		margin-left: 10px;
-		float: left;
-	}
-}
 
-.lessons-container{
-	width: 70%;
-	float: left;
-	display: inline-block;
-	overflow: hidden;
-}
 
 
 
