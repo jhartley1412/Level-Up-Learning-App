@@ -47,22 +47,26 @@
 // individual planet container 
 .planet-row{
 	width: 100%;
+	height: 100px;
 	margin: 0.5em auto;
-	overflow: hidden;
+	overflow: visible;
 	position: relative;
 }
 
-.ind-planet-container{
+.ind-planet-container-outer{
 	width: 20%;
 	margin: 1em 5%;
 	float: left;
-	position: relative;
-	bottom: 0;
 
 	p{
 		margin: 0 auto;
 		text-align: center;
 	}
+}
+
+.ind-planet-container-inner{
+	position: absolute;
+	bottom: 0;
 }
 
 .ind-saturn{
@@ -76,11 +80,19 @@
 
 
 .mercury{
-	width: 50%;
+	width: 35px;
 }
 
 .venus, .earth, .mars, .uranus, .neptune{
-	width: 70%;
+	width: 50px;
+}
+
+.jupiter{
+	width: 70px;
+}
+
+.saturn{
+	width: 80px;
 }
 
 
