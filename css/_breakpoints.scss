@@ -6,6 +6,12 @@
 @media (min-width: 400px){
 	
 	// MOBILE
+	
+	.status-bar{
+		background-color: #FFFFFF;
+		color: #1F1E1E;
+	}
+
 	.mobile-everything{
 		display: block;
 	}
@@ -14,6 +20,16 @@
 		width: 90%;
 		max-width: 400px;
 		margin: 0 auto;
+	}
+
+	.dashboard-border{
+		margin: 1em auto 0 auto;
+		padding: 0.5em;
+		max-width: 400px;
+	}
+
+	.dashboard-text{
+		padding: 0.2em 0.8em;
 	}
 
 	
@@ -36,6 +52,7 @@
 @media(min-width: 590px){
 	
 	// MOBILE
+
 	.mobile-everything{
 		display: none;
 	}
@@ -45,8 +62,23 @@
 	}
 
 
-
 	// TABLET
+
+	.status-bar{
+		background-color: #1F1E1E;
+		color: #fff;
+	}
+
+	.dashboard-border{
+		margin: 2.2em auto 0 0;
+		padding: 0.5em;
+		max-width: 900px;
+	}
+
+	.dashboard-text{
+		padding: 0.2em 0.8em;
+	}
+
 	.tablet-everything{
 		display: block;
 	}

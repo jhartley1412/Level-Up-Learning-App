@@ -6,31 +6,36 @@
 	border-bottom: 1px solid #999999;
 }
 
-.mobile-footer{
-	width: 100%;
-	height: 98px;
-	position: fixed;
-	bottom: 0;
-	background-color: $constant-color;
-}
-
 .phone-container{
 	overflow: scroll;
 }
 
-.status-bar{
-	height: 25px;
-	background-color: #FFFFFF;
+.dashboard-border{
+	width: 90%;
+	box-sizing: border-box;
+	border: 2px solid $outline-color;
 }
 
-.status-bar-time{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-size: 0.9em;
-	font-weight: 300;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 4px;
+.dashboard-text{
+	width: 100%;
+	box-sizing: border-box;
+	background-color: $bg-color;
+	line-height: 1.5;
+
+	p{
+		margin-top: 0.2em;
+	}
 }
+
+
+.mobile-footer{
+	width: 100%;
+	height: 68px;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid $header-color;
+}
+
 
 .footer-container{
 	width: 95%;
@@ -39,11 +44,11 @@
 }
 
 .footer-icon{
-	width: 34px;
-	height: 34px;
+	width: 40px;
+	height: 40px;
 	display: inline-block;
 	float: left;
-	margin: 1em 7.5%;
+	margin: 0.5em 6.8%;
 }
 
 

@@ -2,7 +2,8 @@
 
 @import "breakpoints",
 		"variables",
-		"mobile";
+		"mobile",
+		"tablet";
 
 
 
@@ -10,8 +11,13 @@
 	overflow: hidden;
 }
 
+body{
+	color: $text-color;
+	letter-spacing: 0.5px;
+}
+
 header{
-	background-color: $constant-color;
+	background-color: $header-color;
 	overflow: hidden;
 }
 
@@ -20,8 +26,30 @@ h1{
 	font-size: 1.3em;
 	font-weight: 300;
 	text-align: center;
+	letter-spacing: 1px;
 	font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
 	color: #fff;
+}
+
+h2{
+	margin: 0.2em auto 0 auto;
+	font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: $header-color;
+}
+
+
+.status-bar{
+	height: 25px;
+}
+
+.status-bar-time{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 0.8em;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 5px;
 }
 
 .thumbnail-container{
@@ -117,27 +145,6 @@ h1{
 }
 
 
-.tablet-nav{
-	width: 30%;
-	float: left;
-	margin: 0 auto;
-}
-
-.nav-button{
-	width: 54px;
-	margin: 0 auto;
-	margin-bottom: 1em;
-	top: 0;
-}
-
-.badges-icon{
-	width: 58px;
-	margin-left: -5px;
-}
-
-.completed-icon{
-	width: 58px;
-}
 
 
 
