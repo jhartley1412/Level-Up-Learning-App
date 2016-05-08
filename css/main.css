@@ -102,20 +102,38 @@
   margin: 1.8em auto 0 auto; }
 
 .tablet-header {
-  width: 100%; }
+  width: 100%;
+  z-index: 0;
+  position: relative; }
 
 .tablet-header-container {
-  width: 100%;
-  max-width: 750px;
-  margin: 0 auto; }
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
 
 .button-container {
   width: 30%;
   float: right; }
 
 .header-button {
-  width: 48px;
-  margin: 0 auto; }
+  width: 38px;
+  margin: 0 auto;
+  float: right;
+  padding: 0.2em 0; }
+  .header-button:last-child {
+    margin-left: 2em; }
+
+.dropdown-menu {
+  z-index: 2;
+  position: absolute;
+  background-color: #F59F06;
+  width: 150px;
+  padding: 0.5em;
+  top: 8%;
+  right: 0; }
+
+.dropdown-button {
+  width: 38px; }
 
 .tablet-container {
   width: 100%;

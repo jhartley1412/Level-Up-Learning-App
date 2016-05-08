@@ -9,12 +9,14 @@
 
 .tablet-header{
 	width: 100%;
+	z-index: 0;
+	position: relative;
 }
 
 .tablet-header-container{
-	width: 100%;
-	max-width: 750px;
+	width: 90%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .button-container{
@@ -23,8 +25,29 @@
 }
 
 .header-button{
-	width: 48px;
+	width: 38px;
 	margin: 0 auto;
+	float: right;
+	padding: 0.2em 0;
+
+	&:last-child{
+		margin-left: 2em;
+	}
+}
+
+.dropdown-menu{
+	z-index: 2;
+	position: absolute;
+	background-color: $header-color;
+	width: 150px;
+	padding: 0.5em;
+	top: 8%;
+	right: 0;
+
+}
+
+.dropdown-button{
+	width: 38px;
 }
 
 .tablet-container{
