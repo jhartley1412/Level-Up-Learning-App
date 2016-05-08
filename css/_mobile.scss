@@ -37,8 +37,40 @@
 
 // SOLAR SYSTEM PAGES
 
+// planets all container
 .planets-container{
 	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
 }
+
+// individual planet container 
+.ind-planet-container{
+	width: 20%;
+	margin: 1em 5%;
+	float: left;
+
+	p{
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+// individual planet
+.planet{
+	margin: 0.5em auto;
+}
+
+
+.mercury{
+	width: 50%;
+}
+
+
+
+
+
+
+
 
 

@@ -172,7 +172,23 @@
   margin: 0.5em 6.8%; }
 
 .planets-container {
-  width: 90%; }
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.ind-planet-container {
+  width: 20%;
+  margin: 1em 5%;
+  float: left; }
+  .ind-planet-container p {
+    margin: 0 auto;
+    text-align: center; }
+
+.planet {
+  margin: 0.5em auto; }
+
+.mercury {
+  width: 50%; }
 
 .tablet-container {
   width: 90%;
