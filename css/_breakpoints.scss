@@ -18,6 +18,15 @@
 	.thumbnail-container{
 		width: 90%;
 		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.thumbnail{
+		width: 45%;
+
+		&:first-child{
+			margin-right: 5%;
+		}
 	}
 
 	.dashboard-border{
@@ -113,6 +122,7 @@
 	
 	.thumbnail-container{
 		max-width: 550px;
+		margin: 0 auto;
 	}
 
 	.thumbnail{
@@ -143,7 +153,7 @@
 
 
 // DESKTOP SIZE
-@media (min-width: 970px){
+@media (min-width: 990px){
 
 	// TABLET
 	.tablet-everything{
@@ -175,6 +185,55 @@
 			color: #fff;
 			float: right;
 		}
+	}
+
+	.dashboard-border{
+		width: 100%;
+		margin: 2.2em 0 0 0;
+		padding: 0.5em;
+		max-width: 550px;
+	}
+
+	.dashboard-text{
+		padding: 0.2em 0.8em;
+
+		p{
+			margin: 0.2em auto 0 10px;
+		}
+	}
+
+	.thumbnail-container{
+		width: 70%;
+		margin-left: 0;
+	}
+
+	.thumbnail{
+		width: 35%;
+		max-width: 35%;
+		margin-bottom: 0 5% 1.2em 5%;
+
+		&:first-child{
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+	}
+
+	.thumbnail-title{
+		margin: 0.5em auto 0.6em auto;
+		font-size: 1em;
+	}
+
+
+	.science{
+		border: 10px solid $science-color;;
+	}
+
+	.history{
+		border: 10px solid $history-color;
+	}
+
+	.math{
+		border: 10px solid $math-color;
 	}
 
 }
