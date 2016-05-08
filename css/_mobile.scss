@@ -1,6 +1,8 @@
 
 @import "variables";
 
+// DASHBOARD / CONSTANTS
+
 .mobile-header{
 	height: 88px;
 	border-bottom: 1px solid #999999;
@@ -31,6 +33,12 @@
 	display: inline-block;
 	float: left;
 	margin: 0.5em 6.8%;
+}
+
+// SOLAR SYSTEM PAGES
+
+.planets-container{
+	width: 90%;
 }
 
 

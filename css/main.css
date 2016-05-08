@@ -171,6 +171,9 @@
   float: left;
   margin: 0.5em 6.8%; }
 
+.planets-container {
+  width: 90%; }
+
 .tablet-container {
   width: 90%;
   max-width: 550px;
@@ -214,6 +217,40 @@
 .dropdown-button {
   width: 30px;
   float: left; }
+
+.desktop-header-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.desktop-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2em auto; }
+
+.desktop-left-container {
+  width: 70%;
+  float: left; }
+
+.desktop-nav {
+  width: 25%;
+  margin-left: 5%;
+  box-sizing: border-box;
+  padding: 0.5em;
+  border: 2px solid #FBCC33;
+  float: left; }
+
+.nav-button-container {
+  margin: 1em auto;
+  float: left; }
+  .nav-button-container img {
+    width: 35px;
+    float: left; }
+  .nav-button-container p {
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    float: left; }
 
 .mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
@@ -299,39 +336,5 @@ h3 {
 
 .math {
   background-color: #1A92FF; }
-
-.desktop-header-container {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden; }
-
-.desktop-container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 2em auto; }
-
-.desktop-left-container {
-  width: 70%;
-  float: left; }
-
-.desktop-nav {
-  width: 25%;
-  margin-left: 5%;
-  box-sizing: border-box;
-  padding: 0.5em;
-  border: 2px solid #FBCC33;
-  float: left; }
-
-.nav-button-container {
-  margin: 1em auto;
-  float: left; }
-  .nav-button-container img {
-    width: 35px;
-    float: left; }
-  .nav-button-container p {
-    margin: 0 auto;
-    padding: 0.5em 0.5em 0 0.5em;
-    float: left; }
 
 /*# sourceMappingURL=main.css.map */
