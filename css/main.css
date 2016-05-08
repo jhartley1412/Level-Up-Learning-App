@@ -176,19 +176,33 @@
   margin: 0 auto;
   overflow: hidden; }
 
+.planet-row {
+  width: 100%;
+  margin: 0.5em auto;
+  overflow: hidden;
+  position: relative; }
+
 .ind-planet-container {
   width: 20%;
   margin: 1em 5%;
-  float: left; }
+  float: left;
+  position: relative;
+  bottom: 0; }
   .ind-planet-container p {
     margin: 0 auto;
     text-align: center; }
+
+.ind-saturn {
+  height: 100%; }
 
 .planet {
   margin: 0.5em auto; }
 
 .mercury {
   width: 50%; }
+
+.venus, .earth, .mars, .uranus, .neptune {
+  width: 70%; }
 
 .tablet-container {
   width: 90%;
