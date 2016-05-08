@@ -6,14 +6,13 @@
 @media (min-width: 400px){
 	
 	// MOBILE
-	
+	.mobile-everything{
+		display: block;
+	}
+
 	.status-bar{
 		background-color: #FFFFFF;
 		color: #1F1E1E;
-	}
-
-	.mobile-everything{
-		display: block;
 	}
 
 	.thumbnail-container{
@@ -71,13 +70,15 @@
 @media(min-width: 590px){
 	
 	// MOBILE
-
 	.mobile-everything{
 		display: none;
 	}
 
 
 	// TABLET
+	.tablet-everything{
+		display: block;
+	}
 
 	.status-bar{
 		background-color: #1F1E1E;
@@ -109,10 +110,6 @@
 			margin: 2em auto 0 10px;
 		}
 	}
-
-	.tablet-everything{
-		display: block;
-	}
 	
 	.thumbnail-container{
 		max-width: 550px;
@@ -133,7 +130,6 @@
 	.math{
 		border: 12px solid $math-color;
 	}
-
 
 
 	// DESKTOP

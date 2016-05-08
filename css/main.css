@@ -1,10 +1,10 @@
 @media (min-width: 400px) {
+  .mobile-everything {
+    display: block; }
+
   .status-bar {
     background-color: #FFFFFF;
     color: #1F1E1E; }
-
-  .mobile-everything {
-    display: block; }
 
   .thumbnail-container {
     width: 90%;
@@ -39,6 +39,9 @@
   .mobile-everything {
     display: none; }
 
+  .tablet-everything {
+    display: block; }
+
   .status-bar {
     background-color: #1F1E1E;
     color: #fff; }
@@ -61,9 +64,6 @@
     padding: 0.2em 0.8em; }
     .dashboard-text p {
       margin: 2em auto 0 10px; }
-
-  .tablet-everything {
-    display: block; }
 
   .thumbnail-container {
     max-width: 550px; }
