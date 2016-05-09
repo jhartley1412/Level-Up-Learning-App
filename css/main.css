@@ -252,7 +252,8 @@
   top: 0; }
 
 .phone-container {
-  margin: 5em auto;
+  margin: 6em auto;
+  max-width: 400px;
   max-height: 50%;
   overflow: scroll; }
 
@@ -368,7 +369,7 @@
     margin-top: 0.2em; }
 
 .bottom-button-container {
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
   overflow: hidden; }
 
 .bottom-lesson-button {
@@ -489,6 +490,10 @@
 .mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
 
+.bold {
+  font-weight: 700;
+  letter-spacing: 0; }
+
 body {
   color: #444444;
   letter-spacing: 0.5px; }
@@ -534,7 +539,14 @@ h3 {
 
 .you-did-it-container, .solar-system-badge-container {
   width: 90%;
-  margin: 1em auto; }
+  margin: 2em auto; }
+  .you-did-it-container .paragraph, .solar-system-badge-container .paragraph {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.4; }
+
+.you-did-it-container {
+  margin-bottom: 3em; }
 
 .you-did-it {
   font-size: 1.8em;
@@ -548,7 +560,16 @@ h3 {
 .mobile-astronaut-badge, .solar-system-badge {
   width: 80%;
   max-width: 288px;
-  margin: 0 auto;
+  margin: 1em auto;
   display: block; }
+
+.complete-lesson-button {
+  width: 80%;
+  max-width: 380px;
+  margin: 1em auto;
+  box-sizing: border-box;
+  border: 2px solid #FBCC33;
+  padding: 0 0.2em;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
