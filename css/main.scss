@@ -84,7 +84,47 @@ a{
 
 
 .badges-row{
+	margin: 2em auto 3em auto;
+	overflow: hidden;
+}
+
+// h2
+.badge-row-title{
+	margin: 0 auto;
+	padding-bottom: 0.5em;
+}
+
+.badges-container{
+	width: 93%;
 	margin: 1em auto;
+	border-bottom: 13px solid $outline-color;
+	overflow: hidden;
+}
+
+.badge{
+	width: 40%;
+	margin: 0.5em 5%;
+	float: left;
+}
+
+.science-type{
+	color: $science-color;
+	border-bottom: 2px solid $science-color;
+}
+
+.math-type{
+	color: $math-color;
+	border-bottom: 2px solid $math-color;
+}
+
+.history-type{
+	color: $history-color;
+	border-bottom: 2px solid $history-color;
+}
+
+.english-type{
+	color: $english-color;
+	border-bottom: 2px solid $english-color;
 }
 
 

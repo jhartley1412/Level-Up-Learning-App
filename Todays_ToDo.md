@@ -13,4 +13,8 @@ Things to do before Demo Day
 - change tablet icons to white
 - change dropdown icon to smaller or just stroke icon
 - add status bar icons
+- create more badges for other subjects
 - add javascrip/jquery "todays date" script
+    + status bar times
+    + dashboard date
+    + badge page "date earned"

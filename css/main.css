@@ -99,6 +99,10 @@
     max-width: 380px;
     margin: 1em auto; }
 
+  .badge-row-title {
+    width: 85%;
+    font-size: 1.2em; }
+
   .tablet-everything {
     display: none; }
 
@@ -181,6 +185,10 @@
     width: 490px;
     bottom: 0;
     right: -130px; }
+
+  .badge-row-title {
+    width: 100%;
+    font-size: 1em; }
 
   .desktop-everything {
     display: none; } }
@@ -400,7 +408,7 @@
   .tablet-container .tablet-h2s {
     width: 70%;
     display: inline-block;
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
     margin-left: 10px; }
 
 .tablet-header {
@@ -520,7 +528,7 @@
 
 .planets-container {
   width: 90%;
-  margin: 0 auto;
+  margin: 1em auto;
   overflow: hidden; }
 
 .planet-row {
@@ -633,59 +641,32 @@
 
   .inner-neptune {
     margin-left: 1px; } }
-.mobile-everything, .tablet-everything, .desktop-everything {
-  overflow: hidden; }
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33;
+  padding: 0.5em; }
 
-.bold {
-  font-weight: 700;
-  letter-spacing: 0; }
-
-body {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
   color: #444444;
-  letter-spacing: 0.5px; }
-
-header {
-  background-color: #F59F06;
-  overflow: hidden; }
-
-h1 {
-  margin: 0.7em auto;
-  font-size: 1.3em;
-  font-weight: 300;
   text-align: center;
-  letter-spacing: 1px;
-  font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
-  color: #fff; }
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
 
-h2 {
-  margin: 0.2em auto 0 auto;
-  font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 1.2em;
-  color: #F59F06; }
-
-h3 {
-  font-size: 0.8em;
-  color: #F59F06;
-  text-align: right; }
-
-a {
-  text-decoration: none; }
-
-.status-bar {
-  height: 25px; }
-
-.status-bar-time {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 0.8em;
-  font-weight: 300;
-  text-align: center;
+.dashboard-text, .lesson-text, .paragraph-inner {
+  width: 99%;
   margin: 0 auto;
-  padding-top: 5px; }
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  line-height: 1.5; }
 
-.button-container {
-  width: 30%;
-  float: right; }
-
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
 .you-did-it-container, .solar-system-badge-container {
   width: 90%;
   margin: 2em auto;
@@ -744,5 +725,93 @@ a {
   z-index: 2;
   float: right;
   position: absolute; }
+
+.mobile-everything, .tablet-everything, .desktop-everything {
+  overflow: hidden; }
+
+.bold {
+  font-weight: 700;
+  letter-spacing: 0; }
+
+body {
+  color: #444444;
+  letter-spacing: 0.5px; }
+
+header {
+  background-color: #F59F06;
+  overflow: hidden; }
+
+h1 {
+  margin: 0.7em auto;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff; }
+
+h2 {
+  margin: 0.2em auto 0 auto;
+  font-family: 'Montserrat', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #F59F06; }
+
+h3 {
+  font-size: 0.8em;
+  color: #F59F06;
+  text-align: right; }
+
+a {
+  text-decoration: none; }
+
+.status-bar {
+  height: 25px; }
+
+.status-bar-time {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px; }
+
+.button-container {
+  width: 30%;
+  float: right; }
+
+.badges-row {
+  margin: 2em auto 3em auto;
+  overflow: hidden; }
+
+.badge-row-title {
+  margin: 0 auto;
+  padding-bottom: 0.5em; }
+
+.badges-container {
+  width: 93%;
+  margin: 1em auto;
+  border-bottom: 13px solid #FBCC33;
+  overflow: hidden; }
+
+.badge {
+  width: 40%;
+  margin: 0.5em 5%;
+  float: left; }
+
+.science-type {
+  color: #5C3AD8;
+  border-bottom: 2px solid #5C3AD8; }
+
+.math-type {
+  color: #1A92FF;
+  border-bottom: 2px solid #1A92FF; }
+
+.history-type {
+  color: #57CE6E;
+  border-bottom: 2px solid #57CE6E; }
+
+.english-type {
+  color: #C94B6F;
+  border-bottom: 2px solid #C94B6F; }
 
 /*# sourceMappingURL=main.css.map */
