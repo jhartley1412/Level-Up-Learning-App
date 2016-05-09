@@ -90,6 +90,14 @@ a{
 	}
 }
 
+.paragrpah-outer{
+	@extend %border-outline;
+}
+
+.paragrpah-inner{
+
+}
+
 .you-did-it-container{
 	margin-bottom: 3em;
 }
@@ -98,7 +106,6 @@ a{
 // h2
 .you-did-it{
 	font-size: 1.8em;
-	text-align: center;
 	margin-top: 0;
 }
 
@@ -120,6 +127,17 @@ a{
 	width: 80%;
 	max-width: 380px;
 	margin: 1em auto;
+}
+
+.astronaut-bg{
+	background-image: url('../images/astronaut-bg.jpg');
+	background-size: 200%;
+	background-position: fixed;
+	padding-bottom: 3em;
+	
+	h2{
+		color: #fff;
+	}
 }
 
 

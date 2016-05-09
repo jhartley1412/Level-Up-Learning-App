@@ -6,13 +6,12 @@
 
 .dashboard-border{
 	@extend %border-outline;
+
+	width: 90%;
 }
 
 .dashboard-text{
-	width: 100%;
-	box-sizing: border-box;
-	background-color: $bg-color;
-	line-height: 1.5;
+	@extend %paragrpah-bg;
 }
 
 
@@ -23,7 +22,8 @@
 }
 
 .thumbnail{
-	margin-top: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	box-sizing: border-box;
 	float: left;
 	border-radius: 15px;
@@ -70,7 +70,7 @@
 
 .phone-container{
 	margin: 6em auto;
-	max-width: 400px;
+	max-width: 420px;
 	max-height: 50%;
 	overflow: scroll;
 }
@@ -183,7 +183,7 @@
 
 .desktop-nav{
 	@extend %border-outline;
-	
+
 	width: 25%;
 	margin-left: 5%;
 	padding: 0.5em;

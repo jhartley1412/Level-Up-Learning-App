@@ -13,6 +13,7 @@ $math-color: #1A92FF;
 %border-outline{
 	box-sizing: border-box;
 	border: 2px solid $outline-color;
+	padding: 0.5em;
 }
 
 %button-borders{
@@ -26,6 +27,14 @@ $math-color: #1A92FF;
 	&:hover{
 		background-color: lighten($outline-color, 30%);
 	}
+}
+
+%paragrpah-bg{
+	width: 99%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: $bg-color;
+	line-height: 1.5;
 }
 
 

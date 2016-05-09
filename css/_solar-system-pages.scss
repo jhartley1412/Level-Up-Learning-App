@@ -7,11 +7,7 @@
 }
 
 .lesson-text{
-	@extend %border-outline;
-
-	width: 100%;
-	line-height: 1.5;
-	padding: 0.2em 0.8em;
+	@extend %paragrpah-bg;
 
 	p{
 		margin-top: 0.2em;
