@@ -186,6 +186,10 @@
   .math {
     border: 10px solid #1A92FF; }
 
+  .planet-row {
+    margin: 3em auto 6em auto;
+    margin-left: -1.5em; }
+
   .lesson-border {
     margin-top: 2em;
     padding: 0.5em;
@@ -449,6 +453,27 @@
 
   .inner-jupiter {
     margin-left: -7px; }
+
+  .inner-saturn {
+    margin-left: -17px; }
+
+  .inner-neptune {
+    margin-left: 1px; } }
+@media (min-width: 990px) {
+  .mercury {
+    width: 75px; }
+
+  .venus, .earth, .mars, .uranus, .neptune {
+    width: 90px; }
+
+  .jupiter {
+    width: 120px; }
+
+  .saturn {
+    width: 150px; }
+
+  .inner-jupiter {
+    margin-left: -10px; }
 
   .inner-saturn {
     margin-left: -17px; }
