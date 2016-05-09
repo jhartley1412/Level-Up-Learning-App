@@ -37,6 +37,18 @@ $math-color: #1A92FF;
 	line-height: 1.5;
 }
 
+@media(min-width: 400px){
+	%paragrpah-bg{
+		padding: 0.2em 0.5em;
+	}
+}
+
+@media(min-width: 590px){
+	%paragrpah-bg{
+		padding: 0.5em 0.7em;
+	}
+}
+
 
 
 

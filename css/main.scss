@@ -82,6 +82,7 @@ a{
 .you-did-it-container, .solar-system-badge-container{
 	width: 90%;
 	margin: 2em auto;
+	overflow: hidden;
 
 	.paragraph{
 		width: 85%;
@@ -90,12 +91,14 @@ a{
 	}
 }
 
-.paragrpah-outer{
+.paragraph-outer{
 	@extend %border-outline;
+
+	margin-top: 2em;
 }
 
-.paragrpah-inner{
-
+.paragraph-inner{
+	@extend %paragrpah-bg;
 }
 
 .you-did-it-container{

@@ -1,4 +1,4 @@
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragrpah-outer {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
@@ -11,13 +11,19 @@
   .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
     background-color: #fef2c9; }
 
-.dashboard-text, .lesson-text {
+.dashboard-text, .lesson-text, .paragraph-inner {
   width: 99%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F0F0F0;
   line-height: 1.5; }
 
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
 @media (min-width: 400px) {
   .mobile-everything {
     display: block; }
@@ -40,10 +46,8 @@
     max-width: 420px;
     margin: 1em auto; }
 
-  .dashboard-text {
-    padding: 0.2em 0.8em; }
-    .dashboard-text p {
-      margin-top: 0.2em; }
+  .dashboard-text p {
+    margin-top: 0.2em; }
 
   .science {
     border: 8px solid #5C3AD8; }
@@ -114,10 +118,8 @@
     margin-left: 0;
     max-width: 500px; }
 
-  .dashboard-text {
-    padding: 0.2em 0.8em; }
-    .dashboard-text p {
-      margin: 2em auto 0 10px; }
+  .dashboard-text p {
+    margin: 0.3em auto 0 10px; }
 
   .thumbnail-container {
     max-width: 550px;
@@ -229,7 +231,7 @@
 
   .continue-button {
     margin: 0; } }
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragrpah-outer {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
@@ -242,14 +244,20 @@
   .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
     background-color: #fef2c9; }
 
-.dashboard-text, .lesson-text {
+.dashboard-text, .lesson-text, .paragraph-inner {
   width: 99%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragrpah-outer {
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
@@ -262,13 +270,19 @@
   .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
     background-color: #fef2c9; }
 
-.dashboard-text, .lesson-text {
+.dashboard-text, .lesson-text, .paragraph-inner {
   width: 99%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F0F0F0;
   line-height: 1.5; }
 
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
 .dashboard-border {
   width: 90%; }
 
@@ -344,8 +358,7 @@
     width: 70%;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 10px;
-    float: left; }
+    margin-left: 10px; }
 
 .tablet-header {
   width: 100%;
@@ -411,7 +424,7 @@
     padding: 0.5em 0.5em 0 0.5em;
     float: left; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragrpah-outer {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
@@ -424,13 +437,19 @@
   .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
     background-color: #fef2c9; }
 
-.dashboard-text, .lesson-text {
+.dashboard-text, .lesson-text, .paragraph-inner {
   width: 99%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F0F0F0;
   line-height: 1.5; }
 
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
 .lesson-text p {
   margin-top: 0.2em; }
 
@@ -482,7 +501,7 @@
 .planet {
   margin: 0.5em auto; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragrpah-outer {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
@@ -495,13 +514,19 @@
   .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
     background-color: #fef2c9; }
 
-.dashboard-text, .lesson-text {
+.dashboard-text, .lesson-text, .paragraph-inner {
   width: 99%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F0F0F0;
   line-height: 1.5; }
 
+@media (min-width: 400px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.2em 0.5em; } }
+@media (min-width: 590px) {
+  .dashboard-text, .lesson-text, .paragraph-inner {
+    padding: 0.5em 0.7em; } }
 @media (min-width: 400px) {
   .mercury {
     width: 35px; }
@@ -620,11 +645,15 @@ a {
 
 .you-did-it-container, .solar-system-badge-container {
   width: 90%;
-  margin: 2em auto; }
+  margin: 2em auto;
+  overflow: hidden; }
   .you-did-it-container .paragraph, .solar-system-badge-container .paragraph {
     width: 85%;
     margin: 0 auto;
     line-height: 1.4; }
+
+.paragraph-outer {
+  margin-top: 2em; }
 
 .you-did-it-container {
   margin-bottom: 3em; }
