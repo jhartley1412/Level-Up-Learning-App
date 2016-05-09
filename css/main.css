@@ -526,4 +526,17 @@ h3 {
   width: 30%;
   float: right; }
 
+.you-did-it-container {
+  width: 90%;
+  margin: 1em auto; }
+
+.you-did-it {
+  font-size: 1.8em;
+  text-align: center; }
+
+.mobile-astronaut-badge {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
+
 /*# sourceMappingURL=main.css.map */
