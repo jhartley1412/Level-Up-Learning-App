@@ -70,7 +70,7 @@ h3{
 }
 
 
-.you-did-it-container{
+.you-did-it-container, .solar-system-badge-container{
 	width: 90%;
 	margin: 1em auto;
 }
@@ -79,10 +79,17 @@ h3{
 .you-did-it{
 	font-size: 1.8em;
 	text-align: center;
+	margin-top: 0;
 }
 
-.mobile-astronaut-badge{
+.you-did-it-small{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+.mobile-astronaut-badge, .solar-system-badge{
 	width: 80%;
+	max-width: 288px;
 	margin: 0 auto;
 	display: block;
 }

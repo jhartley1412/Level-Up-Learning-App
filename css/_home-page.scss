@@ -62,11 +62,16 @@
 // MOBILE
 
 .mobile-header{
+	width: 100%;
 	height: 88px;
 	border-bottom: 1px solid #999999;
+	position: fixed;
+	top: 0;
 }
 
 .phone-container{
+	margin: 5em auto;
+	max-height: 50%;
 	overflow: scroll;
 }
 
@@ -76,6 +81,7 @@
 	position: fixed;
 	bottom: 0;
 	border-top: 2px solid $header-color;
+	background-color: #fff;
 }
 
 

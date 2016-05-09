@@ -245,10 +245,15 @@
   background-color: #1A92FF; }
 
 .mobile-header {
+  width: 100%;
   height: 88px;
-  border-bottom: 1px solid #999999; }
+  border-bottom: 1px solid #999999;
+  position: fixed;
+  top: 0; }
 
 .phone-container {
+  margin: 5em auto;
+  max-height: 50%;
   overflow: scroll; }
 
 .mobile-footer {
@@ -256,7 +261,8 @@
   height: 68px;
   position: fixed;
   bottom: 0;
-  border-top: 2px solid #F59F06; }
+  border-top: 2px solid #F59F06;
+  background-color: #fff; }
 
 .footer-container {
   width: 95%;
@@ -526,16 +532,22 @@ h3 {
   width: 30%;
   float: right; }
 
-.you-did-it-container {
+.you-did-it-container, .solar-system-badge-container {
   width: 90%;
   margin: 1em auto; }
 
 .you-did-it {
   font-size: 1.8em;
-  text-align: center; }
+  text-align: center;
+  margin-top: 0; }
 
-.mobile-astronaut-badge {
+.you-did-it-small {
+  text-align: center;
+  margin-bottom: 0.2em; }
+
+.mobile-astronaut-badge, .solar-system-badge {
   width: 80%;
+  max-width: 288px;
   margin: 0 auto;
   display: block; }
 
