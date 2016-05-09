@@ -106,8 +106,10 @@
 .tablet-container{
 	width: 90%;
 	max-width: 550px;
-	margin: 2em auto;
+	margin: 0.5em auto;
 	overflow: hidden;
+	position: relative;
+	z-index: 1;
 
 	.tablet-h2s{
 		width: 70%;

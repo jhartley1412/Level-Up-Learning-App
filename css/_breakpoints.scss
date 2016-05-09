@@ -94,6 +94,10 @@
 
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
+	
+	.you-did-it{
+		width: 100%;
+	}
 
 	.solar-system-badge{
 		width: 80%;
@@ -102,7 +106,7 @@
 		display: block;
 	}
 
-	.complete-lessons-button{
+	.complete-lesson-button{
 		width: 80%;
 		max-width: 380px;
 		margin: 1em auto;
@@ -234,6 +238,17 @@
 		}
 	}
 
+	.astronaut-bg{
+		padding-bottom: 1em;
+		background-size: 150%;
+	}
+
+	.astronaut-popout{
+		width: 490px;
+		bottom: 0;
+		right: -130px;
+	}
+
 
 	// DESKTOP
 	.desktop-everything{
@@ -329,6 +344,10 @@
 		border: 10px solid $math-color;
 	}
 
+
+	// PLANETS LESSON PAGE
+	// ———————————————————————————————————
+
 	.planet-row{
 		margin: 3em auto 6em auto;
 		margin-left: -1.5em;
@@ -352,6 +371,25 @@
 
 	.continue-button{
 		margin: 0;
+	}
+	
+
+	// YOU DID IT PAGE
+	// ———————————————————————————————————
+
+	.solar-system-badge{
+		margin-left: 18%;
+	}
+
+	.astronaut-bg{
+		padding-bottom: 4em;
+		background-size: 110%;
+	}
+
+	.astronaut-popout{
+		width: 590px;
+		bottom: -160px;
+		right: -180px;
 	}
 
 }

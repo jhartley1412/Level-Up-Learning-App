@@ -98,15 +98,30 @@ a{
 	@extend %border-outline;
 	
 	width: 65%;
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 
 .paragraph-inner{
 	@extend %paragrpah-bg;
 }
 
+// only to keep astronaut from hiding text
+.top-paragraph{
+	
+	p{
+		width: 95%;
+	}
+}
+
 .you-did-it-container{
 	margin-bottom: 3em;
+	z-index: 1;
+}
+
+.desktop-you-did-it{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
 }
 
 
@@ -139,17 +154,21 @@ a{
 
 .complete-lesson-button{
 	@extend %button-borders;
+	margin: 1em auto;
 }
 
 .astronaut-bg{
 	background-image: url('../images/astronaut-bg.jpg');
-	background-size: 200%;
-	background-position: fixed;
-	padding-bottom: 3em;
 	
 	h2{
 		color: #fff;
 	}
+}
+
+.astronaut-popout{
+	z-index: 2;
+	float: right;
+	position: absolute;
 }
 
 

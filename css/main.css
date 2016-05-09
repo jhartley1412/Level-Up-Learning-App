@@ -85,13 +85,16 @@
     margin-left: 2.5%;
     margin-right: 0; }
 
+  .you-did-it {
+    width: 100%; }
+
   .solar-system-badge {
     width: 80%;
     max-width: 288px;
     margin: 1em auto;
     display: block; }
 
-  .complete-lessons-button {
+  .complete-lesson-button {
     width: 80%;
     max-width: 380px;
     margin: 1em auto; }
@@ -170,6 +173,15 @@
     .complete-lesson-button p {
       margin-top: 0.5em; }
 
+  .astronaut-bg {
+    padding-bottom: 1em;
+    background-size: 150%; }
+
+  .astronaut-popout {
+    width: 490px;
+    bottom: 0;
+    right: -130px; }
+
   .desktop-everything {
     display: none; } }
 @media (min-width: 990px) {
@@ -247,7 +259,19 @@
     margin: 0; }
 
   .continue-button {
-    margin: 0; } }
+    margin: 0; }
+
+  .solar-system-badge {
+    margin-left: 18%; }
+
+  .astronaut-bg {
+    padding-bottom: 4em;
+    background-size: 110%; }
+
+  .astronaut-popout {
+    width: 590px;
+    bottom: -160px;
+    right: -180px; } }
 .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
@@ -369,8 +393,10 @@
 .tablet-container {
   width: 90%;
   max-width: 550px;
-  margin: 2em auto;
-  overflow: hidden; }
+  margin: 0.5em auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
   .tablet-container .tablet-h2s {
     width: 70%;
     display: inline-block;
@@ -671,10 +697,19 @@ a {
 
 .paragraph-outer {
   width: 65%;
-  margin-top: 1em; }
+  margin-top: 0.5em; }
+
+.top-paragraph p {
+  width: 95%; }
 
 .you-did-it-container {
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  z-index: 1; }
+
+.desktop-you-did-it {
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
 
 .you-did-it {
   font-size: 1.8em;
@@ -697,12 +732,17 @@ a {
 .badge-header {
   width: 65%; }
 
+.complete-lesson-button {
+  margin: 1em auto; }
+
 .astronaut-bg {
-  background-image: url("../images/astronaut-bg.jpg");
-  background-size: 200%;
-  background-position: fixed;
-  padding-bottom: 3em; }
+  background-image: url("../images/astronaut-bg.jpg"); }
   .astronaut-bg h2 {
     color: #fff; }
+
+.astronaut-popout {
+  z-index: 2;
+  float: right;
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
