@@ -1,0 +1,80 @@
+
+@import "variables";
+
+
+@media (min-width: 400px){
+
+	.mercury{
+		width: 35px;
+	}
+
+	.venus, .earth, .mars, .uranus, .neptune{
+		width: 50px;
+	}
+
+
+	.jupiter{
+		width: 70px;
+	}
+
+	.saturn{
+		width: 80px;
+	}
+
+	.inner-jupiter{
+		margin-left: -7px;
+	}
+
+	.inner-saturn{
+		margin-left: -17px;
+	}
+
+	.inner-neptune{
+		margin-left: -7px;
+	}
+
+}
+
+
+
+
+
+@media(min-width: 590px){
+
+	.mercury{
+		width: 55px;
+	}
+
+	.venus, .earth, .mars, .uranus, .neptune{
+		width: 70px;
+	}
+
+
+	.jupiter{
+		width: 90px;
+	}
+
+	.saturn{
+		width: 120px;
+	}
+	
+	.inner-jupiter{
+		margin-left: -7px;
+	}
+
+	.inner-saturn{
+		margin-left: -17px;
+	}
+
+	.inner-neptune{
+		margin-left: 1px;
+	}
+
+}
+
+
+
+
+
+
+

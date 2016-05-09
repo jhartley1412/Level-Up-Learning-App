@@ -39,6 +39,30 @@
   .planets-container {
     max-width: 400px; }
 
+  .planet-row {
+    margin: 1em auto 2em auto; }
+
+  .lesson-border {
+    padding: 0.5em; }
+
+  .lesson-text {
+    padding: 0.2em 0.8em; }
+
+  .bottom-button-container {
+    width: 90%;
+    max-width: 400px; }
+
+  .bottom-lesson-button {
+    max-width: 190px; }
+
+  .back-button {
+    margin-left: 0;
+    margin-right: 2.5%; }
+
+  .continue-button {
+    margin-left: 2.5%;
+    margin-right: 0; }
+
   .tablet-everything {
     display: none; }
 
@@ -92,6 +116,16 @@
 
   .planets-container {
     max-width: 550px; }
+
+  .planet-row {
+    margin: 0.5em auto 3.5em auto; }
+
+  .bottom-button-container {
+    width: 100%;
+    max-width: 100%; }
+
+  .bottom-lesson-button {
+    max-width: 250px; }
 
   .desktop-everything {
     display: none; } }
@@ -150,7 +184,23 @@
     border: 10px solid #57CE6E; }
 
   .math {
-    border: 10px solid #1A92FF; } }
+    border: 10px solid #1A92FF; }
+
+  .lesson-border {
+    margin-top: 2em;
+    padding: 0.5em;
+    width: 55%;
+    margin: 0 2.5%;
+    float: left; }
+
+  .lesson-text {
+    padding: 0.2em 0.8em; }
+
+  .back-button {
+    margin: 0; }
+
+  .continue-button {
+    margin: 0; } }
 .dashboard-border {
   box-sizing: border-box;
   border: 2px solid #FBCC33; }
@@ -294,6 +344,10 @@
     padding: 0.5em 0.5em 0 0.5em;
     float: left; }
 
+.lesson-border {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33; }
+
 .lesson-text {
   width: 100%;
   box-sizing: border-box;
@@ -304,15 +358,24 @@
     margin-top: 0.2em; }
 
 .bottom-button-container {
-  width: 90%;
-  max-width: 400px;
   margin: 1em auto;
   overflow: hidden; }
 
 .bottom-lesson-button {
   width: 45%;
-  max-width: 150px;
-  margin: 0.2em 2.5%;
+  margin: 0.2em auto;
+  box-sizing: border-box;
+  border: 2px solid #FBCC33;
+  padding: 0 0.2em;
+  text-align: center; }
+
+.top-container {
+  width: 99%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.top-lesson-button {
+  width: 20%;
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0 0.2em;
@@ -332,7 +395,6 @@
 .planet-row {
   width: 110%;
   height: 100px;
-  margin: 1em auto 2em auto;
   overflow: visible;
   position: relative; }
 
@@ -348,27 +410,51 @@
   position: absolute;
   bottom: 0; }
 
-.inner-changes {
-  margin-left: -7px; }
-
-.inner-saturn {
-  margin-left: -17px; }
-
 .planet {
   margin: 0.5em auto; }
 
-.mercury {
-  width: 35px; }
+@media (min-width: 400px) {
+  .mercury {
+    width: 35px; }
 
-.venus, .earth, .mars, .uranus, .neptune {
-  width: 50px; }
+  .venus, .earth, .mars, .uranus, .neptune {
+    width: 50px; }
 
-.jupiter {
-  width: 70px; }
+  .jupiter {
+    width: 70px; }
 
-.saturn {
-  width: 80px; }
+  .saturn {
+    width: 80px; }
 
+  .inner-jupiter {
+    margin-left: -7px; }
+
+  .inner-saturn {
+    margin-left: -17px; }
+
+  .inner-neptune {
+    margin-left: -7px; } }
+@media (min-width: 590px) {
+  .mercury {
+    width: 55px; }
+
+  .venus, .earth, .mars, .uranus, .neptune {
+    width: 70px; }
+
+  .jupiter {
+    width: 90px; }
+
+  .saturn {
+    width: 120px; }
+
+  .inner-jupiter {
+    margin-left: -7px; }
+
+  .inner-saturn {
+    margin-left: -17px; }
+
+  .inner-neptune {
+    margin-left: 1px; } }
 .mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
 

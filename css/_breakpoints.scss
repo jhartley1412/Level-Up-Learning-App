@@ -56,11 +56,39 @@
 		border: 8px solid $math-color;
 	}
 
-
-
-
 	.planets-container{
 		max-width: 400px;
+	}
+
+	.planet-row{
+		margin: 1em auto 2em auto;
+	}
+
+	.lesson-border{
+		padding: 0.5em;
+	}
+
+	.lesson-text{
+		padding: 0.2em 0.8em;
+	}
+
+	.bottom-button-container{
+		width: 90%;
+		max-width: 400px;
+	}
+
+	.bottom-lesson-button{
+		max-width: 190px;
+	}
+
+	.back-button{
+		margin-left: 0;
+		margin-right: 2.5%;
+	}
+
+	.continue-button{
+		margin-left: 2.5%;
+		margin-right: 0;
 	}
 
 	
@@ -148,11 +176,21 @@
 		border: 12px solid $math-color;
 	}
 
-
-
-
 	.planets-container{
 		max-width: 550px;
+	}
+
+	.planet-row{
+		margin: 0.5em auto 3.5em auto;
+	}
+
+	.bottom-button-container{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.bottom-lesson-button{
+		max-width: 250px;
 	}
 
 
@@ -250,7 +288,30 @@
 		border: 10px solid $math-color;
 	}
 
+	.lesson-border{
+		margin-top: 2em;
+		padding: 0.5em;
+		width: 55%;
+		margin: 0 2.5%;
+		float: left;
+	}
+
+	.lesson-text{
+		padding: 0.2em 0.8em;
+	}
+
+	.back-button{
+		margin: 0;
+	}
+
+	.continue-button{
+		margin: 0;
+	}
+
 }
+
+
+
 
 
 
