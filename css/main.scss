@@ -4,7 +4,8 @@
 		"variables",
 		"home-page",
 		"solar-system-pages",
-		"planet-breakpoints";
+		"planet-breakpoints",
+		"you-did-it";
 
 
 
@@ -82,97 +83,9 @@ a{
 
 
 
-.you-did-it-container, .solar-system-badge-container{
-	width: 90%;
-	margin: 2em auto;
-	overflow: hidden;
-
-	.paragraph{
-		width: 85%;
-		margin: 0 auto;
-		line-height: 1.5;
-	}
-}
-
-.paragraph-outer{
-	@extend %border-outline;
-	
-	width: 65%;
-	margin-top: 0.5em;
-}
-
-.paragraph-inner{
-	@extend %paragrpah-bg;
-}
-
-// only to keep astronaut from hiding text
-.top-paragraph{
-	
-	p{
-		width: 95%;
-	}
-}
-
-.you-did-it-container{
-	margin-bottom: 3em;
-	z-index: 1;
-}
-
-.desktop-you-did-it{
-	width: 80%;
-	margin: 0 auto;
-	position: relative;
-}
-
-
-// h2
-.you-did-it{
-	font-size: 1.8em;
-	margin-top: 0;
-	text-align: center;
-}
-
-.you-did-it-small{
-	text-align: center;
-	margin-bottom: 0.2em;
-}
-
-.you-did-it-big{
-	text-align: left;
-	font-size: 2em;
-}
-
-.mobile-astronaut-badge{
-	width: 80%;
-	margin: 1em auto;
-	display: block;
-}
-
-.badge-header{
-	width: 65%;
-}
-
-.complete-lesson-button{
-	@extend %button-borders;
+.badges-row{
 	margin: 1em auto;
 }
-
-.astronaut-bg{
-	background-image: url('../images/astronaut-bg.jpg');
-	
-	h2{
-		color: #fff;
-	}
-}
-
-.astronaut-popout{
-	z-index: 2;
-	float: right;
-	position: absolute;
-}
-
-
-
 
 
 
