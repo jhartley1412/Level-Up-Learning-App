@@ -1,3 +1,15 @@
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .lesson-text {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
+
 @media (min-width: 400px) {
   .mobile-everything {
     display: block; }
@@ -205,9 +217,29 @@
 
   .continue-button {
     margin: 0; } }
-.dashboard-border {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .lesson-text {
   box-sizing: border-box;
   border: 2px solid #FBCC33; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .lesson-text {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
 
 .dashboard-text {
   width: 100%;
@@ -339,9 +371,7 @@
 .desktop-nav {
   width: 25%;
   margin-left: 5%;
-  box-sizing: border-box;
   padding: 0.5em;
-  border: 2px solid #FBCC33;
   float: left; }
 
 .nav-button-container {
@@ -355,14 +385,20 @@
     padding: 0.5em 0.5em 0 0.5em;
     float: left; }
 
-.lesson-border {
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .lesson-text {
   box-sizing: border-box;
   border: 2px solid #FBCC33; }
 
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
+
 .lesson-text {
   width: 100%;
-  box-sizing: border-box;
-  background-color: #F0F0F0;
   line-height: 1.5;
   padding: 0.2em 0.8em; }
   .lesson-text p {
@@ -374,11 +410,7 @@
 
 .bottom-lesson-button {
   width: 45%;
-  margin: 0.2em auto;
-  box-sizing: border-box;
-  border: 2px solid #FBCC33;
-  padding: 0 0.2em;
-  text-align: center; }
+  margin: 0.2em auto; }
 
 .top-container {
   width: 99%;
@@ -386,11 +418,7 @@
   overflow: hidden; }
 
 .top-lesson-button {
-  width: 20%;
-  box-sizing: border-box;
-  border: 2px solid #FBCC33;
-  padding: 0 0.2em;
-  text-align: center; }
+  width: 20%; }
 
 .back-button {
   float: left; }
@@ -423,6 +451,18 @@
 
 .planet {
   margin: 0.5em auto; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .dashboard-border, .desktop-nav, .lesson-border, .lesson-text {
+  box-sizing: border-box;
+  border: 2px solid #FBCC33; }
+
+.bottom-lesson-button, .top-lesson-button, .complete-lesson-button {
+  background-color: #fff;
+  color: #444444;
+  text-align: center;
+  padding: 0 0.2em; }
+  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover {
+    background-color: #fef2c9; }
 
 @media (min-width: 400px) {
   .mercury {
@@ -522,6 +562,9 @@ h3 {
   color: #F59F06;
   text-align: right; }
 
+a {
+  text-decoration: none; }
+
 .status-bar {
   height: 25px; }
 
@@ -566,10 +609,6 @@ h3 {
 .complete-lesson-button {
   width: 80%;
   max-width: 380px;
-  margin: 1em auto;
-  box-sizing: border-box;
-  border: 2px solid #FBCC33;
-  padding: 0 0.2em;
-  text-align: center; }
+  margin: 1em auto; }
 
 /*# sourceMappingURL=main.css.map */

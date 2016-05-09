@@ -50,6 +50,10 @@ h3{
 	text-align: right;
 }
 
+a{
+	text-decoration: none;
+}
+
 
 // STATUS BAR
 
@@ -111,13 +115,11 @@ h3{
 }
 
 .complete-lesson-button{
+	@extend %button-borders;
+
 	width: 80%;
 	max-width: 380px;
 	margin: 1em auto;
-	box-sizing: border-box;
-	border: 2px solid $outline-color;
-	padding: 0 0.2em;
-	text-align: center;
 }
 
 

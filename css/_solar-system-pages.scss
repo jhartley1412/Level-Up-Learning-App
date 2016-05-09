@@ -3,14 +3,13 @@
 
 
 .lesson-border{
-	box-sizing: border-box;
-	border: 2px solid $outline-color;
+	@extend %border-outline;
 }
 
 .lesson-text{
+	@extend %border-outline;
+
 	width: 100%;
-	box-sizing: border-box;
-	background-color: $bg-color;
 	line-height: 1.5;
 	padding: 0.2em 0.8em;
 
@@ -26,12 +25,10 @@
 }
 
 .bottom-lesson-button{
+	@extend %button-borders;
+
 	width: 45%;
 	margin: 0.2em auto;
-	box-sizing: border-box;
-	border: 2px solid $outline-color;
-	padding: 0 0.2em;
-	text-align: center;
 }
 
 .top-container{
@@ -41,11 +38,9 @@
 }
 
 .top-lesson-button{
+	@extend %button-borders;
+
 	width: 20%;
-	box-sizing: border-box;
-	border: 2px solid $outline-color;
-	padding: 0 0.2em;
-	text-align: center;
 }
 
 .back-button{

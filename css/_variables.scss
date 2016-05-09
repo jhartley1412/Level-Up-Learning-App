@@ -10,4 +10,24 @@ $science-color: #5C3AD8;
 $history-color: #57CE6E;
 $math-color: #1A92FF;
 
+%border-outline{
+	box-sizing: border-box;
+	border: 2px solid $outline-color;
+}
+
+%button-borders{
+	@extend %border-outline;
+
+	background-color: #fff;
+	color: $text-color;
+	text-align: center;
+	padding: 0 0.2em;
+	
+	&:hover{
+		background-color: lighten($outline-color, 30%);
+	}
+}
+
+
+
 

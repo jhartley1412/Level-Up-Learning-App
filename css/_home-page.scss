@@ -5,8 +5,7 @@
 // DASHBOARD PAGE INFORMATIVE TEXT
 
 .dashboard-border{
-	box-sizing: border-box;
-	border: 2px solid $outline-color;
+	@extend %border-outline;
 }
 
 .dashboard-text{
@@ -183,11 +182,11 @@
 }
 
 .desktop-nav{
+	@extend %border-outline;
+	
 	width: 25%;
 	margin-left: 5%;
-	box-sizing: border-box;
 	padding: 0.5em;
-	border: 2px solid $outline-color;
 	float: left; 
 }
 
