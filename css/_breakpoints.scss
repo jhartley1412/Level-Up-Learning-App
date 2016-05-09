@@ -52,6 +52,7 @@
 		border: 8px solid $math-color;
 	}
 
+
 	// PLANETS LESSON PAGE
 	// ———————————————————————————————————
 
@@ -93,10 +94,20 @@
 
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
-	
-	.you-did-it{
-		text-align: center;
+
+	.solar-system-badge{
+		width: 80%;
+		max-width: 288px;
+		margin: 1em auto;
+		display: block;
 	}
+
+	.complete-lessons-button{
+		width: 80%;
+		max-width: 380px;
+		margin: 1em auto;
+	}
+
 
 
 	
@@ -206,9 +217,21 @@
 
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
-	
-	.you-did-it{
-		text-align: left;
+
+	.solar-system-badge{
+		width: 200px;
+		margin-left: 15%;
+	}
+
+	.complete-lesson-button{
+		width: 200px;
+		height: 40px;
+		margin: 2em auto;
+		float: left;
+
+		p{
+			margin-top: 0.5em;
+		}
 	}
 
 

@@ -79,6 +79,9 @@ a{
 }
 
 
+
+
+
 .you-did-it-container, .solar-system-badge-container{
 	width: 90%;
 	margin: 2em auto;
@@ -87,14 +90,15 @@ a{
 	.paragraph{
 		width: 85%;
 		margin: 0 auto;
-		line-height: 1.4;
+		line-height: 1.5;
 	}
 }
 
 .paragraph-outer{
 	@extend %border-outline;
-
-	margin-top: 2em;
+	
+	width: 65%;
+	margin-top: 1em;
 }
 
 .paragraph-inner{
@@ -110,6 +114,7 @@ a{
 .you-did-it{
 	font-size: 1.8em;
 	margin-top: 0;
+	text-align: center;
 }
 
 .you-did-it-small{
@@ -117,19 +122,23 @@ a{
 	margin-bottom: 0.2em;
 }
 
-.mobile-astronaut-badge, .solar-system-badge{
+.you-did-it-big{
+	text-align: left;
+	font-size: 2em;
+}
+
+.mobile-astronaut-badge{
 	width: 80%;
-	max-width: 288px;
 	margin: 1em auto;
 	display: block;
 }
 
+.badge-header{
+	width: 65%;
+}
+
 .complete-lesson-button{
 	@extend %button-borders;
-
-	width: 80%;
-	max-width: 380px;
-	margin: 1em auto;
 }
 
 .astronaut-bg{
@@ -142,6 +151,8 @@ a{
 		color: #fff;
 	}
 }
+
+
 
 
 
