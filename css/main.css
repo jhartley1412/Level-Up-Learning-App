@@ -758,6 +758,7 @@
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
 .popdown-carrot {
+  margin: 0 auto;
   position: relative;
   display: inline-block;
   width: 36px;
@@ -913,7 +914,8 @@ a {
 .popdown-menu-outer {
   width: 99%;
   max-width: 725px;
-  margin: -1em auto;
+  margin: 0 auto;
+  margin-top: -40px;
   padding: 0;
   z-index: 2;
   position: relative;

@@ -8,6 +8,7 @@ $size: 15px;
 $border-size: 3px;
 
 .popdown-carrot{
+	margin: 0 auto;
 	position: relative;
 	display: inline-block;
 	width: (($size + $border-size) * 2);
