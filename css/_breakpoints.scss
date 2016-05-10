@@ -52,6 +52,10 @@
 		border: 8px solid $math-color;
 	}
 
+	.english{
+		border: 8px solid $english-color;
+	}
+
 
 	// PLANETS LESSON PAGE
 	// ———————————————————————————————————
@@ -115,6 +119,10 @@
 
 	// BADGE COLLECTION PAGE
 	// ———————————————————————————————————
+	
+	.badges-row{
+		margin: 2em auto 3em auto;
+	}
 
 	.badge-row-title{
 		width: 85%;
@@ -202,6 +210,10 @@
 
 	.math{
 		border: 12px solid $math-color;
+	}
+
+	.english{
+		border: 8px solid $english-color;
 	}
 
 
@@ -327,13 +339,14 @@
 	}
 
 	.thumbnail-container{
-		width: 70%;
+		width: 100%;
+		margin-top: 1.5em;
 		margin-left: 0;
 	}
 
 	.thumbnail{
-		width: 35%;
-		max-width: 35%;
+		width: 40%;
+		max-width: 40%;
 		margin-bottom: 0 5% 1.2em 5%;
 
 		&:first-child{
@@ -358,6 +371,10 @@
 
 	.math{
 		border: 10px solid $math-color;
+	}
+
+	.english{
+		border: 8px solid $english-color;
 	}
 
 
@@ -406,6 +423,15 @@
 		width: 590px;
 		bottom: -160px;
 		right: -180px;
+	}
+
+
+	// BADGE COLLECTION PAGE
+	// ———————————————————————————————————
+	
+	.badges-row{
+		max-width: 550px;
+		margin: 2em 0 3em 0;
 	}
 
 }

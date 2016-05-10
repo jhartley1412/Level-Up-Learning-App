@@ -5,7 +5,6 @@
 // Badge Collection Page
 
 .badges-row{
-	margin: 2em auto 3em auto;
 	overflow: hidden;
 }
 
@@ -196,7 +195,7 @@
 	background-color: $bg-color;
 	position: absolute;
 	top: 180%;
-	left: 5%;
+	left: -8%;
 
 	img{
 		width: 85%;

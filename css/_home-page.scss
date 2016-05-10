@@ -55,6 +55,80 @@
 	background-color: $math-color;
 }
 
+.english{
+	background-color: $english-color;
+}
+
+
+.desktop-left-container{
+	width: 66%;
+	float: left;
+}
+
+.desktop-nav{
+	@extend %border-outline;
+
+	width: 34%;
+	margin: 2em 0 0 0;
+	padding: 0.5em;
+	float: left;
+}
+
+.nav-button-container{
+	@extend %button-borders;
+
+	margin: 1em auto;
+	float: left;
+
+	img{
+		width: 35px;
+		float: left;
+	}
+
+	p{
+		margin: 0 auto;
+		padding: 0.5em 0.5em 0 0.5em;
+		float: left;
+	}
+}
+
+.nav-badges-container, .nav-completed-container{
+	width: 99%;
+	margin: 0.5em auto;
+
+	h2{
+		margin-bottom: 1em;
+	}
+}
+
+.nav-badges-container{
+	margin-bottom: 6em;
+}
+
+.nav-list{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0.5em 0;
+	border-top: 1px solid $header-color;
+	border-bottom: 1px solid $header-color;
+	overflow: hidden;
+
+	img{
+		width: 30%;
+		float: left;
+		margin-left: 3%;
+	}
+
+	.mini-thumbnail{
+		box-sizing: border-box;
+		border-radius: 10px;
+	}
+}
+
+
+
+
+
 
 
 

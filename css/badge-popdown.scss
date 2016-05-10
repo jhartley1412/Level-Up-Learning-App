@@ -50,7 +50,7 @@ $border-real-size: $size + ($border-size * 2);
 		position:absolute;
 	    content:"";
 	    top: 480%;
-		left: -40%;
+		left: -109%;
 
 		border-top: $size solid transparent;
 	    border-bottom: $size solid transparent;
@@ -61,7 +61,7 @@ $border-real-size: $size + ($border-size * 2);
 		width: 0;
 	    position: relative;
 	    top: 475%;
-	    left: -49%;
+	    left: -118%;
 	    border-top: $border-real-size solid transparent;
 	    border-bottom: $border-real-size solid transparent;
 	    border-right: ($border-real-size * 1.5) solid $outline-color;

@@ -1,14 +1,14 @@
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -58,6 +58,9 @@
   .math {
     border: 8px solid #1A92FF; }
 
+  .english {
+    border: 8px solid #C94B6F; }
+
   .planets-container {
     max-width: 400px; }
 
@@ -98,6 +101,9 @@
     width: 80%;
     max-width: 380px;
     margin: 1em auto; }
+
+  .badges-row {
+    margin: 2em auto 3em auto; }
 
   .badge-row-title {
     width: 85%;
@@ -151,6 +157,9 @@
 
   .math {
     border: 12px solid #1A92FF; }
+
+  .english {
+    border: 8px solid #C94B6F; }
 
   .planets-container {
     max-width: 550px; }
@@ -225,12 +234,13 @@
       margin: 0.2em auto 0 10px; }
 
   .thumbnail-container {
-    width: 70%;
+    width: 100%;
+    margin-top: 1.5em;
     margin-left: 0; }
 
   .thumbnail {
-    width: 35%;
-    max-width: 35%;
+    width: 40%;
+    max-width: 40%;
     margin-bottom: 0 5% 1.2em 5%; }
     .thumbnail:first-child {
       margin-right: 5%;
@@ -248,6 +258,9 @@
 
   .math {
     border: 10px solid #1A92FF; }
+
+  .english {
+    border: 8px solid #C94B6F; }
 
   .planet-row {
     margin: 3em auto 6em auto;
@@ -279,18 +292,22 @@
   .astronaut-popout {
     width: 590px;
     bottom: -160px;
-    right: -180px; } }
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+    right: -180px; }
+
+  .badges-row {
+    max-width: 550px;
+    margin: 2em 0 3em 0; } }
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -306,17 +323,17 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -365,17 +382,65 @@
 .math {
   background-color: #1A92FF; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.english {
+  background-color: #C94B6F; }
+
+.desktop-left-container {
+  width: 66%;
+  float: left; }
+
+.desktop-nav {
+  width: 34%;
+  margin: 2em 0 0 0;
+  padding: 0.5em;
+  float: left; }
+
+.nav-button-container {
+  margin: 1em auto;
+  float: left; }
+  .nav-button-container img {
+    width: 35px;
+    float: left; }
+  .nav-button-container p {
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0 0.5em;
+    float: left; }
+
+.nav-badges-container, .nav-completed-container {
+  width: 99%;
+  margin: 0.5em auto; }
+  .nav-badges-container h2, .nav-completed-container h2 {
+    margin-bottom: 1em; }
+
+.nav-badges-container {
+  margin-bottom: 6em; }
+
+.nav-list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  border-top: 1px solid #F59F06;
+  border-bottom: 1px solid #F59F06;
+  overflow: hidden; }
+  .nav-list img {
+    width: 30%;
+    float: left;
+    margin-left: 3%; }
+  .nav-list .mini-thumbnail {
+    box-sizing: border-box;
+    border-radius: 10px; }
+
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -442,17 +507,17 @@
 .planet {
   margin: 0.5em auto; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -531,17 +596,17 @@
 
   .inner-neptune {
     margin-left: 1px; } }
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -616,17 +681,17 @@
   float: right;
   position: absolute; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -643,7 +708,6 @@
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
 .badges-row {
-  margin: 2em auto 3em auto;
   overflow: hidden; }
 
 .badge-row-title {
@@ -779,7 +843,7 @@
   background-color: #F0F0F0;
   position: absolute;
   top: 180%;
-  left: 5%; }
+  left: -8%; }
   .popside-menu-inner img {
     width: 85%;
     margin: 0 auto;
@@ -798,17 +862,17 @@
 .close-click-desktop .back-button {
   padding-top: 0.2em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner, .desktop-nav {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
-.bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
+.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
   color: #444444;
   text-align: center;
   padding: 0 0.2em; }
-  .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
+  .nav-button-container:hover, .bottom-lesson-button:hover, .top-lesson-button:hover, .complete-lesson-button:hover, .badge-info .back-button:hover {
     background-color: #fef2c9; }
 
 .dashboard-text, .lesson-text, .paragraph-inner {
@@ -859,7 +923,7 @@
     position: absolute;
     content: "";
     top: 480%;
-    left: -40%;
+    left: -109%;
     border-top: 36px solid transparent;
     border-bottom: 36px solid transparent;
     border-right: 54px solid #F0F0F0; }
@@ -867,7 +931,7 @@
     width: 0;
     position: relative;
     top: 475%;
-    left: -49%;
+    left: -118%;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
     border-right: 60px solid #FBCC33; }
@@ -1019,27 +1083,7 @@ a {
 .desktop-container {
   width: 90%;
   max-width: 1000px;
-  margin: 2em auto; }
-
-.desktop-left-container {
-  width: 70%;
-  float: left; }
-
-.desktop-nav {
-  width: 25%;
-  margin-left: 5%;
-  padding: 0.5em;
-  float: left; }
-
-.nav-button-container {
-  margin: 1em auto;
-  float: left; }
-  .nav-button-container img {
-    width: 35px;
-    float: left; }
-  .nav-button-container p {
-    margin: 0 auto;
-    padding: 0.5em 0.5em 0 0.5em;
-    float: left; }
+  margin: 2em auto;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

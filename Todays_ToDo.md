@@ -4,7 +4,6 @@ Tuesday, May 10th To Do
 - code new idea for desktop dashboard
     + short text of info to the left of thumbnails
     + short preview of side bar items
-- start and finish seperate Badge page coding
 - start making logo / name
 
 

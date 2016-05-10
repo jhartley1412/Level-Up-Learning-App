@@ -211,44 +211,8 @@ a{
 	width: 90%;
 	max-width: 1000px;
 	margin: 2em auto;
+	position: relative;
 }
-
-.desktop-left-container{
-	width: 70%;
-	float: left;
-}
-
-.desktop-nav{
-	@extend %border-outline;
-
-	width: 25%;
-	margin-left: 5%;
-	padding: 0.5em;
-	float: left; 
-}
-
-.nav-button-container{
-	margin: 1em auto;
-	float: left;
-
-	img{
-		width: 35px;
-		float: left;
-	}
-
-	p{
-		margin: 0 auto;
-		padding: 0.5em 0.5em 0 0.5em;
-		float: left;
-	}
-}
-
-
-
-
-
-
-
 
 
 
