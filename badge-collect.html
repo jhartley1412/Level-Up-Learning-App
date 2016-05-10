@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> My Badges </title>
+	<title> My Badge Collection </title>
 	
 	<!-- NORMALIZE -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
 
 
 	<!-- GOOGLE FONTS -->
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Arimo:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700,400italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 
 	<!-- CSS -->
@@ -32,15 +32,18 @@
 		<h1> My Badge Collection </h1>
 	</header>
 
-	<div class="phone-container">
+
+	<!-- BADGE COLLECTION PAGE -->
+	<div class="phone-container mobile-collection">
 		
+
 		<div class="badges-row first-row">
 			
 			<h2 class="badge-row-title science-type"> Science Badges </h2>
 
 			<div class="badges-container">
 				
-				<a href="#">
+				<a class="solar-system-click-mobile" href="#">
 				<img class="badge" src="./images/solar-system-badge.svg">
 				</a>
 
@@ -83,6 +86,67 @@
 				<img class="badge" src="./images/math-badge.svg">
 
 			</div>		
+
+		</div>
+
+	</div>
+
+	
+	<!-- ACTUAL BADGE PAGE -->
+	<div class="phone-container mobile-badge-on-display">
+		
+		<div class="ind-badge-container">
+
+			<img class="ind-badge" src="./images/solar-system-badge.svg">
+
+			<h2> The Solar System Badge </h2>
+			<h3> - Solar Systems are groups of planets - </h3>
+
+		</div>
+
+		<div class="badge-info">
+
+			<div class="info-box box-one">
+				
+				<div class="box-left">
+					<p> Date Earned </p>
+				</div>
+
+				<div class="box-right">
+					<p> May 5th, 2016 </p>
+				</div>
+
+			</div>
+
+			<div class="info-box box-two">
+				
+				<div class="box-left">
+					<p> Badge Type </p>
+				</div>
+
+				<div class="box-right">
+					<p> Science - <span class="italic"> Astronomy </span> </p>
+				</div>
+
+			</div>
+			
+			<div class="info-box box-three">
+				
+				<div class="box-left">
+					<p> Difficulty </p>
+				</div>
+
+				<div class="box-right">
+					<p> Lab Assistent <span class="italic"> Lv 1 </span> </p>
+				</div>
+
+			</div>
+
+			<a href="badge-collect.html">
+			<div class="back-button">
+				<p> Go Back </p>
+			</div>
+			</a>
 
 		</div>
 
@@ -157,6 +221,73 @@
 	</div>
 
 
+	<!-- POPDOWN BADGE MENU -->
+	<div class="popdown-menu-outer">
+		<div class="popdown-carrot"> </div>
+	<div class="popdown-menu-inner">
+
+		<div class="popdown-left">
+			
+			<img src="./images/solar-system-badge.svg">
+
+		</div>
+
+
+		<div class="popdown-right">
+				
+			<h2> The Solar System Badge </h2>
+
+			<div class="badge-info">
+
+				<div class="info-box box-one">
+					
+					<div class="box-left">
+						<p> Date Earned </p>
+					</div>
+
+					<div class="box-right">
+						<p> May 5th, 2016 </p>
+					</div>
+
+				</div>
+
+				<div class="info-box box-two">
+					
+					<div class="box-left">
+						<p> Badge Type </p>
+					</div>
+
+					<div class="box-right">
+						<p> Science - <span class="italic"> Astronomy </span> </p>
+					</div>
+
+				</div>
+				
+				<div class="info-box box-three">
+					
+					<div class="box-left">
+						<p> Difficulty </p>
+					</div>
+
+					<div class="box-right">
+						<p> Lab Assistent <span class="italic"> Lv 1 </span> </p>
+					</div>
+
+				</div>
+
+				<a class="close-click-tablet" href="#">
+				<div class="back-button">
+					<p> Close </p>
+				</div>
+				</a>
+
+			</div>			
+
+		</div>
+
+	</div>
+	</div>
+
 
 	<header class="tablet-header">
 		
@@ -199,7 +330,7 @@
 
 			<div class="badges-container">
 				
-				<a href="#">
+				<a class="solar-system-click-tablet" href="#">
 				<img class="badge" src="./images/solar-system-badge.svg">
 				</a>
 
@@ -363,6 +494,27 @@
 			$('.dropdown-menu').mouseleave(function(e){
 
 				$('.dropdown-menu').hide();
+
+			});
+
+		});
+
+
+		$('.solar-system-click-mobile').click(function(e){
+
+			$('.mobile-collection').hide();
+			$('.mobile-badge-on-display').show();
+
+		});
+
+		$('.solar-system-click-tablet').click(function(e){
+
+			$('.popdown-menu-outer').show();
+
+
+			$('.close-click-tablet').click(function(e){
+
+				$('.popdown-menu-outer').hide();
 
 			});
 

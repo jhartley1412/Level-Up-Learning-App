@@ -1,0 +1,39 @@
+
+
+@import "variables";
+
+
+
+$size: 15px;
+$border-size: 3px;
+
+.popdown-carrot{
+	position: relative;
+	display: inline-block;
+	width: (($size + $border-size) * 2);
+	height: (($size + $border-size) * 2);
+}
+
+.popdown-carrot:after{
+	border-bottom: 10px solid $outline-color;
+	border-left: $size solid transparent;
+    border-right: $size solid transparent;
+
+	content: "";
+	display: block;
+	position: absolute;
+	top: 392px;
+	left: 215px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
