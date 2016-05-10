@@ -1,5 +1,4 @@
 
-
 @import "variables";
 
 
@@ -38,41 +37,36 @@ $border-real-size: $size + ($border-size * 2);
 	}
 }
 
-// .carrot-border{
 
-// 	&:before{
-// 		position:absolute;
-// 	    content:"";
-// 	    top: 421px;
-// 		left: 178px;
-// 		z-index:-1;
-// 	    margin-top:(-$border-size * 2);
-// 	    margin-left:(-$border-size * 2);
+.popside-carrot{
+	z-index: 3;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+	width: (($size + $border-size) * 2);
+	height: (($size + $border-size) * 2);
 
-// 		border-left: $border-real-size solid transparent;
-// 	    border-right: $border-real-size solid transparent;
-// 	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
-// 	}
+	&:after{
+		position:absolute;
+	    content:"";
+	    top: 480%;
+		left: -40%;
 
-// 	> div{
-// 		width: 0;
-// 	    position: relative;
-// 	    top: 419px;
-// 	    left: 180px;
-// 	    border-left: $border-real-size solid transparent;
-// 	    border-right: $border-real-size solid transparent;
-// 	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
-// 	}
-// }
+		border-top: $size solid transparent;
+	    border-bottom: $size solid transparent;
+	    border-right: ($size * 1.5) solid $bg-color;
+	}
 
-
-
-
-
-
-
-
-
+	> div{
+		width: 0;
+	    position: relative;
+	    top: 475%;
+	    left: -49%;
+	    border-top: $border-real-size solid transparent;
+	    border-bottom: $border-real-size solid transparent;
+	    border-right: ($border-real-size * 1.5) solid $outline-color;
+	}
+}
 
 
 

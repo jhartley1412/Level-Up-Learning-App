@@ -231,7 +231,7 @@
 			<img src="./images/solar-system-badge.svg">
 			
 			<h3> - Solar Systems are groups of planets - </h3>
-			
+
 		</div>
 
 
@@ -389,6 +389,68 @@
 
 	<!-- DESKTOP HTML -->
 	<div class="desktop-everything">
+	
+
+
+	<!-- POPDOWN BADGE MENU -->
+	<div class="popside-menu-outer">
+		<div class="popside-carrot"><div></div></div>
+	<div class="popside-menu-inner">
+			
+		<img src="./images/solar-system-badge.svg">
+			
+		<h2> The Solar System Badge </h2>
+
+		<h3> - Solar Systems are groups of planets - </h3>
+
+		<div class="badge-info">
+
+			<div class="info-box box-one">
+				
+				<div class="box-left">
+					<p> Date Earned </p>
+				</div>
+
+				<div class="box-right">
+					<p> May 5th, 2016 </p>
+				</div>
+
+			</div>
+
+			<div class="info-box box-two">
+				
+				<div class="box-left">
+					<p> Badge Type </p>
+				</div>
+
+				<div class="box-right">
+					<p> Science - <span class="italic"> Astronomy </span> </p>
+				</div>
+
+			</div>
+			
+			<div class="info-box box-three">
+				
+				<div class="box-left">
+					<p> Difficulty </p>
+				</div>
+
+				<div class="box-right">
+					<p> Lab Assistent <span class="italic"> Lv 1 </span> </p>
+				</div>
+
+			</div>
+
+			<a class="close-click-desktop" href="#">
+			<div class="back-button">
+				<p> Close </p>
+			</div>
+			</a>
+
+		</div>			
+
+	</div>
+	</div>
 
 	<header class="desktop-header">
 
@@ -427,7 +489,7 @@
 
 				<div class="badges-container">
 					
-					<a href="#">
+					<a class="solar-system-click-desktop" href="#">
 					<img class="badge" src="./images/solar-system-badge.svg">
 					</a>
 
@@ -517,6 +579,20 @@
 			$('.close-click-tablet').click(function(e){
 
 				$('.popdown-menu-outer').hide();
+
+			});
+
+		});
+
+
+		$('.solar-system-click-desktop').click(function(e){
+
+			$('.popside-menu-outer').show();
+
+
+			$('.close-click-desktop').click(function(e){
+
+				$('.popside-menu-outer').hide();
 
 			});
 

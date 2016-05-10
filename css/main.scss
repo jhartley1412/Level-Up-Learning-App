@@ -6,6 +6,7 @@
 		"solar-system-pages",
 		"planet-breakpoints",
 		"you-did-it",
+		"badges",
 		"badge-popdown";
 
 
@@ -84,181 +85,163 @@ a{
 }
 
 
+// ———————————————————————————————————————————————————————————
 
+// MOBILE
 
-
-// Badge Collection Page
-
-.badges-row{
-	margin: 2em auto 3em auto;
-	overflow: hidden;
-}
-
-// h2
-.badge-row-title{
-	margin: 0 auto;
-	padding-bottom: 0.5em;
-}
-
-.badges-container{
-	width: 93%;
-	margin: 1em auto;
-	border-bottom: 13px solid $outline-color;
-	overflow: hidden;
-}
-
-.badge{
-	width: 40%;
-	margin: 0.5em 5%;
-	float: left;
-}
-
-.science-type{
-	color: $science-color;
-	border-bottom: 2px solid $science-color;
-}
-
-.math-type{
-	color: $math-color;
-	border-bottom: 2px solid $math-color;
-}
-
-.history-type{
-	color: $history-color;
-	border-bottom: 2px solid $history-color;
-}
-
-.english-type{
-	color: $english-color;
-	border-bottom: 2px solid $english-color;
-}
-
-
-
-// Individual Badge Page
-
-.mobile-badge-on-display{
-	display: none;
-}
-
-.ind-badge-container{
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
-
-	h3{
-		color: $header-color;
-	}
-}
-
-.ind-badge{
-	width: 85%;
-	margin: 0 auto;
-	display: block;
-}
-
-.badge-info{
-	width: 85%;
-	margin: 0 auto;
-
-	.back-button{
-		@extend %button-borders;
-		
-		width: 35%;
-		height: 40px;
-		padding: 0 1em;
-
-		p{
-			margin: 0.5em auto;
-		}
-	}
-}
-
-.info-box{
-	@extend %border-outline;
-	
+.mobile-header{
 	width: 100%;
+	height: 88px;
+	border-bottom: 1px solid #999999;
+	position: fixed;
+	top: 0;
+}
+
+.phone-container{
+	margin: 6em auto;
+	max-width: 420px;
+	max-height: 50%;
+	overflow: scroll;
+}
+
+.mobile-footer{
+	width: 100%;
+	height: 68px;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid $header-color;
+	background-color: #fff;
+}
+
+
+.footer-container{
+	width: 95%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.footer-icon{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin: 0.5em 6.8%;
+}
+
+// ———————————————————————————————————————————————————————————
+
+// TABLET
+
+.tablet-container{
+	width: 90%;
+	max-width: 550px;
 	margin: 0.5em auto;
 	overflow: hidden;
-	padding: 0;
-}
-
-.box-left{
-	width: 35%;
-	float: left;
-	margin: 0;
-	background-color: $bg-color;
-
-	p{
-		text-align: center;
-	}
-}
-
-.box-right{
-	width: 65%;
-	float: left;
-	margin: 0;
-	background-color: #fff;
-
-	p{
-		margin-left: 1em;
-	}
-}
-
-
-// popdown menu
-
-.popdown-menu-outer{
-	width: 99%;
-	max-width: 725px;
-	margin: 0 auto;
-	margin-top: -80px;
-	padding: 0;
-	z-index: 2;
 	position: relative;
-	display: none;
+	z-index: 1;
+	
+	.title-h2s{
+		width: 70%;
+		display: inline-block;
+		margin: 1em auto 0 auto;
+		margin-left: 10px;
+	}
+
+	.tablet-h2s{
+		width: 70%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: 10px;
+	}
 }
 
-.popdown-menu-inner{
+.tablet-header{
+	width: 100%;
+	z-index: 0;
+	position: relative;
+}
+
+.tablet-header-container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.dropdown-menu{
+	z-index: 2;
+	position: absolute;
+	background-color: $header-color;
+	width: 200px;
+	padding: 0.5em;
+	top: 8%;
+	right: 0;
+	display: none;
+
+	p{
+		color: #fff;
+		float: left;
+		margin: 0.4em 0 0 0.5em;
+	}
+}
+
+.dropdown-button-container{
+	overflow: hidden;
+	margin: 1.7em 0 1em 0;
+}
+
+.dropdown-button{
+	width: 30px;
+	float: left;
+}
+
+
+
+// ———————————————————————————————————————————————————————————
+
+// DESKTOP
+
+.desktop-header-container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.desktop-container{
+	width: 90%;
+	max-width: 1000px;
+	margin: 2em auto;
+}
+
+.desktop-left-container{
+	width: 70%;
+	float: left;
+}
+
+.desktop-nav{
 	@extend %border-outline;
 
-	overflow: hidden;
-	background-color: $bg-color;
-	position: absolute;
-	top: 475px;
-	left: 0.5%;
+	width: 25%;
+	margin-left: 5%;
+	padding: 0.5em;
+	float: left; 
 }
 
-.popdown-left{
-	width: 45%;
+.nav-button-container{
+	margin: 1em auto;
 	float: left;
 
 	img{
-		width: 85%;
-		display: block;
-		margin: 0 auto;
+		width: 35px;
+		float: left;
 	}
 
-	h3{
-		width: 85%;
-		text-align: center;
+	p{
 		margin: 0 auto;
+		padding: 0.5em 0.5em 0 0.5em;
+		float: left;
 	}
 }
-
-.popdown-right{
-	width: 55%;
-	float: left;
-	box-sizing: border-box;
-	padding-top: 0.5em;
-
-	h2{
-		width: 85%;
-		margin-bottom: 1em;
-	}
-}
-
-
 
 
 

@@ -1,0 +1,240 @@
+
+@import "variables";
+
+
+// Badge Collection Page
+
+.badges-row{
+	margin: 2em auto 3em auto;
+	overflow: hidden;
+}
+
+// h2
+.badge-row-title{
+	margin: 0 auto;
+	padding-bottom: 0.5em;
+}
+
+.badges-container{
+	width: 93%;
+	margin: 1em auto;
+	border-bottom: 13px solid $outline-color;
+	overflow: hidden;
+}
+
+.badge{
+	width: 40%;
+	margin: 0.5em 5%;
+	float: left;
+}
+
+.science-type{
+	color: $science-color;
+	border-bottom: 2px solid $science-color;
+}
+
+.math-type{
+	color: $math-color;
+	border-bottom: 2px solid $math-color;
+}
+
+.history-type{
+	color: $history-color;
+	border-bottom: 2px solid $history-color;
+}
+
+.english-type{
+	color: $english-color;
+	border-bottom: 2px solid $english-color;
+}
+
+
+
+// Individual Badge Page
+
+.mobile-badge-on-display{
+	display: none;
+}
+
+.ind-badge-container{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+
+	h3{
+		color: $header-color;
+	}
+}
+
+.ind-badge{
+	width: 85%;
+	margin: 0 auto;
+	display: block;
+}
+
+.badge-info{
+	width: 85%;
+	margin: 0 auto;
+
+	.back-button{
+		@extend %button-borders;
+		
+		width: 35%;
+		height: 40px;
+		padding: 0 1em;
+
+		p{
+			margin: 0.5em auto;
+		}
+	}
+}
+
+.info-box{
+	@extend %border-outline;
+	
+	width: 100%;
+	margin: 0.5em auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.box-left{
+	width: 35%;
+	float: left;
+	margin: 0;
+	background-color: $bg-color;
+
+	p{
+		text-align: center;
+	}
+}
+
+.box-right{
+	width: 65%;
+	float: left;
+	margin: 0;
+	background-color: #fff;
+
+	p{
+		margin-left: 1em;
+	}
+}
+
+
+// popdown menu
+
+.popdown-menu-outer{
+	width: 99%;
+	max-width: 725px;
+	margin: 0 auto;
+	margin-top: -80px;
+	padding: 0;
+	z-index: 2;
+	position: relative;
+	display: none;
+}
+
+.popdown-menu-inner{
+	@extend %border-outline;
+
+	overflow: hidden;
+	background-color: $bg-color;
+	position: absolute;
+	top: 475px;
+	left: 0.5%;
+}
+
+.popdown-left{
+	width: 45%;
+	float: left;
+
+	img{
+		width: 85%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	h3{
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+.popdown-right{
+	width: 55%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 0.5em;
+
+	h2{
+		width: 85%;
+		margin-bottom: 1em;
+	}
+}
+
+
+// popside menu
+
+.popside-menu-outer{
+	width: 70%;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: -80px;
+	padding: 0;
+	z-index: 2;
+	position: relative;
+	display: none;
+}
+
+.popside-menu-inner{
+	@extend %border-outline;
+
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: $bg-color;
+	position: absolute;
+	top: 180%;
+	left: 5%;
+
+	img{
+		width: 85%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	h2, h3{
+		text-align: center;
+	}
+
+	h3{
+		margin-bottom: 3em;
+	}
+
+	.badge-info{
+		width: 90%;
+
+		.info-box{
+			padding: 0;
+		}
+
+		p{
+			font-size: 0.9em;
+		}
+	}
+}
+
+.close-click-desktop{
+
+	.back-button{
+		padding-top: 0.2em;
+	}
+}
+
+
+
+
+
+
+
