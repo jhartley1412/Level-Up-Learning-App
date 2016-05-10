@@ -212,7 +212,7 @@ a{
 	width: 99%;
 	max-width: 725px;
 	margin: 0 auto;
-	margin-top: -40px;
+	margin-top: -80px;
 	padding: 0;
 	z-index: 2;
 	position: relative;
@@ -221,12 +221,11 @@ a{
 
 .popdown-menu-inner{
 	@extend %border-outline;
-	
-	padding: 0;
+
 	overflow: hidden;
 	background-color: $bg-color;
 	position: absolute;
-	top: 402px;
+	top: 475px;
 	left: 0.5%;
 }
 
@@ -236,12 +235,22 @@ a{
 
 	img{
 		width: 85%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	h3{
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
 
 .popdown-right{
 	width: 55%;
 	float: left;
+	box-sizing: border-box;
+	padding-top: 0.5em;
 
 	h2{
 		width: 85%;

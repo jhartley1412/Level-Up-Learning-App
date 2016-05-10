@@ -758,21 +758,28 @@
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
 .popdown-carrot {
+  z-index: 3;
   margin: 0 auto;
   position: relative;
   display: inline-block;
-  width: 36px;
-  height: 36px; }
-
-.popdown-carrot:after {
-  border-bottom: 10px solid #FBCC33;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 392px;
-  left: 215px; }
+  width: 76px;
+  height: 76px; }
+  .popdown-carrot:after {
+    position: absolute;
+    content: "";
+    top: 424px;
+    left: 180px;
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+    border-bottom: 54px solid #F0F0F0; }
+  .popdown-carrot > div {
+    width: 0;
+    position: relative;
+    top: 417px;
+    left: 176.5px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid #FBCC33; }
 
 .mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
@@ -915,29 +922,36 @@ a {
   width: 99%;
   max-width: 725px;
   margin: 0 auto;
-  margin-top: -40px;
+  margin-top: -80px;
   padding: 0;
   z-index: 2;
   position: relative;
   display: none; }
 
 .popdown-menu-inner {
-  padding: 0;
   overflow: hidden;
   background-color: #F0F0F0;
   position: absolute;
-  top: 402px;
+  top: 475px;
   left: 0.5%; }
 
 .popdown-left {
   width: 45%;
   float: left; }
   .popdown-left img {
-    width: 85%; }
+    width: 85%;
+    display: block;
+    margin: 0 auto; }
+  .popdown-left h3 {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto; }
 
 .popdown-right {
   width: 55%;
-  float: left; }
+  float: left;
+  box-sizing: border-box;
+  padding-top: 0.5em; }
   .popdown-right h2 {
     width: 85%;
     margin-bottom: 1em; }

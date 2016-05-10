@@ -4,28 +4,67 @@
 
 
 
-$size: 15px;
-$border-size: 3px;
+$size: 36px;
+$border-size: 2px;
+$border-real-size: $size + ($border-size * 2);
 
 .popdown-carrot{
+	z-index: 3;
 	margin: 0 auto;
 	position: relative;
 	display: inline-block;
 	width: (($size + $border-size) * 2);
 	height: (($size + $border-size) * 2);
+
+	&:after{
+		position:absolute;
+	    content:"";
+	    top: 424px;
+		left: 180px;
+
+		border-left: $size solid transparent;
+	    border-right: $size solid transparent;
+	    border-bottom: ($size * 1.5) solid $bg-color;
+	}
+
+	> div{
+		width: 0;
+	    position: relative;
+	    top: 417px;
+	    left: 176.5px;
+	    border-left: $border-real-size solid transparent;
+	    border-right: $border-real-size solid transparent;
+	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
+	}
 }
 
-.popdown-carrot:after{
-	border-bottom: 10px solid $outline-color;
-	border-left: $size solid transparent;
-    border-right: $size solid transparent;
+// .carrot-border{
 
-	content: "";
-	display: block;
-	position: absolute;
-	top: 392px;
-	left: 215px;
-}
+// 	&:before{
+// 		position:absolute;
+// 	    content:"";
+// 	    top: 421px;
+// 		left: 178px;
+// 		z-index:-1;
+// 	    margin-top:(-$border-size * 2);
+// 	    margin-left:(-$border-size * 2);
+
+// 		border-left: $border-real-size solid transparent;
+// 	    border-right: $border-real-size solid transparent;
+// 	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
+// 	}
+
+// 	> div{
+// 		width: 0;
+// 	    position: relative;
+// 	    top: 419px;
+// 	    left: 180px;
+// 	    border-left: $border-real-size solid transparent;
+// 	    border-right: $border-real-size solid transparent;
+// 	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
+// 	}
+// }
+
 
 
 
