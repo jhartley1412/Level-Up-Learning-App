@@ -61,6 +61,8 @@
 	// ———————————————————————————————————
 
 	.planets-container{
+		margin: 0 auto;
+		margin-top: -1em;
 		max-width: 400px;
 	}
 
@@ -120,6 +122,10 @@
 	// BADGE COLLECTION PAGE
 	// ———————————————————————————————————
 	
+	.ind-badge{
+		width: 70%;
+	}
+
 	.badges-row{
 		margin: 2em auto 3em auto;
 	}
@@ -221,6 +227,7 @@
 	// ———————————————————————————————————
 
 	.planets-container{
+		margin: 1em auto;
 		max-width: 550px;
 	}
 
@@ -272,6 +279,10 @@
 	// BADGE COLLECTION PAGE
 	// ———————————————————————————————————
 	
+	.ind-badge{
+		width: 85%;
+	}
+
 	.badge-row-title{
 		width: 100%;
 		font-size: 1em;

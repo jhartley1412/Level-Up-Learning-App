@@ -1,7 +1,10 @@
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -62,6 +65,8 @@
     border: 8px solid #C94B6F; }
 
   .planets-container {
+    margin: 0 auto;
+    margin-top: -1em;
     max-width: 400px; }
 
   .planet-row {
@@ -101,6 +106,9 @@
     width: 80%;
     max-width: 380px;
     margin: 1em auto; }
+
+  .ind-badge {
+    width: 70%; }
 
   .badges-row {
     margin: 2em auto 3em auto; }
@@ -162,6 +170,7 @@
     border: 8px solid #C94B6F; }
 
   .planets-container {
+    margin: 1em auto;
     max-width: 550px; }
 
   .planet-row {
@@ -194,6 +203,9 @@
     width: 490px;
     bottom: 0;
     right: -130px; }
+
+  .ind-badge {
+    width: 85%; }
 
   .badge-row-title {
     width: 100%;
@@ -297,10 +309,13 @@
   .badges-row {
     max-width: 550px;
     margin: 2em 0 3em 0; } }
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -323,10 +338,13 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -430,10 +448,13 @@
     box-sizing: border-box;
     border-radius: 10px; }
 
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -483,7 +504,6 @@
 
 .planets-container {
   width: 90%;
-  margin: 1em auto;
   overflow: hidden; }
 
 .planet-row {
@@ -507,10 +527,13 @@
 .planet {
   margin: 0.5em auto; }
 
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -596,10 +619,13 @@
 
   .inner-neptune {
     margin-left: 1px; } }
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -681,10 +707,13 @@
   float: right;
   position: absolute; }
 
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -752,7 +781,6 @@
     color: #F59F06; }
 
 .ind-badge {
-  width: 85%;
   margin: 0 auto;
   display: block; }
 
@@ -769,19 +797,20 @@
 .info-box {
   width: 100%;
   margin: 0.5em auto;
-  overflow: hidden;
-  padding: 0; }
+  overflow: hidden; }
 
 .box-left {
-  width: 35%;
+  width: 38%;
   float: left;
   margin: 0;
-  background-color: #F0F0F0; }
+  background-color: #5C3AD8; }
   .box-left p {
-    text-align: center; }
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.8px; }
 
 .box-right {
-  width: 65%;
+  width: 62%;
   float: left;
   margin: 0;
   background-color: #fff; }
@@ -854,18 +883,22 @@
     margin-bottom: 3em; }
   .popside-menu-inner .badge-info {
     width: 90%; }
-    .popside-menu-inner .badge-info .info-box {
-      padding: 0; }
     .popside-menu-inner .badge-info p {
       font-size: 0.9em; }
 
-.close-click-desktop .back-button {
+.badge-back {
+  margin-top: 0.8em; }
+
+.close-click-desktop p {
   padding-top: 0.2em; }
 
-.nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .info-box, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
+
+.info-box {
+  padding: 0; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -1031,14 +1064,13 @@ a {
   overflow: hidden;
   position: relative;
   z-index: 1; }
-  .tablet-container .title-h2s {
+  .tablet-container .tablet-h2s {
     width: 70%;
     display: inline-block;
     margin: 1em auto 0 auto;
     margin-left: 10px; }
-  .tablet-container .tablet-h2s {
+  .tablet-container .today-date-h2 {
     width: 70%;
-    display: inline-block;
     margin: 0 auto;
     margin-left: 10px; }
 

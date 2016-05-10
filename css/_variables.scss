@@ -17,6 +17,12 @@ $english-color: #C94B6F;
 	padding: 0.5em;
 }
 
+%border-outline-no-pad{
+	@extend %border-outline;
+
+	padding: 0;
+}
+
 %button-borders{
 	@extend %border-outline;
 
