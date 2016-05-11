@@ -23,6 +23,12 @@ $english-color: #C94B6F;
 	padding: 0;
 }
 
+%border-outline-science-color{
+	@extend %border-outline;
+
+	border: 2px solid $science-color;
+}
+
 %button-borders{
 	@extend %border-outline;
 

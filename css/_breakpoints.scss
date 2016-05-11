@@ -83,6 +83,10 @@
 		margin: 0 auto;
 		margin-top: -1em;
 		max-width: 400px;
+
+		p{
+			color: $text-color;
+		}
 	}
 
 	.planet-row{
@@ -276,6 +280,10 @@
 	.planets-container{
 		margin: 1em auto;
 		max-width: 550px;
+
+		p{
+			color: #fff;
+		}
 	}
 
 	.planet-row{
@@ -421,13 +429,13 @@
 	}
 
 	.thumbnail{
-		width: 40%;
-		max-width: 40%;
+		width: 38%;
+		max-width: 38%;
 		margin-bottom: 0 5% 1.2em 5%;
 
 		&:first-child{
-			margin-right: 5%;
-			margin-left: 5%;
+			margin-right: 6%;
+			margin-left: 6%;
 		}
 	}
 
@@ -435,7 +443,6 @@
 		margin: 0.5em auto 0.6em auto;
 		font-size: 1em;
 	}
-
 
 	.science{
 		border: 10px solid $science-color;;
@@ -450,7 +457,23 @@
 	}
 
 	.english{
-		border: 8px solid $english-color;
+		border: 10px solid $english-color;
+	}
+
+	.mini-science{
+		border: 6px solid $science-color;;
+	}
+
+	.mini-history{
+		border: 6px solid $history-color;
+	}
+
+	.mini-math{
+		border: 6px solid $math-color;
+	}
+
+	.mini-english{
+		border: 6px solid $english-color;
 	}
 
 

@@ -1,10 +1,13 @@
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -83,6 +86,8 @@
     margin: 0 auto;
     margin-top: -1em;
     max-width: 400px; }
+    .planets-container p {
+      color: #444444; }
 
   .planet-row {
     margin: 1em auto 2em auto; }
@@ -209,6 +214,8 @@
   .planets-container {
     margin: 1em auto;
     max-width: 550px; }
+    .planets-container p {
+      color: #fff; }
 
   .planet-row {
     margin: 0.5em auto 3.5em auto; }
@@ -301,12 +308,12 @@
     margin-left: 0; }
 
   .thumbnail {
-    width: 40%;
-    max-width: 40%;
+    width: 38%;
+    max-width: 38%;
     margin-bottom: 0 5% 1.2em 5%; }
     .thumbnail:first-child {
-      margin-right: 5%;
-      margin-left: 5%; }
+      margin-right: 6%;
+      margin-left: 6%; }
 
   .thumbnail-title {
     margin: 0.5em auto 0.6em auto;
@@ -322,7 +329,19 @@
     border: 10px solid #1A92FF; }
 
   .english {
-    border: 8px solid #C94B6F; }
+    border: 10px solid #C94B6F; }
+
+  .mini-science {
+    border: 6px solid #5C3AD8; }
+
+  .mini-history {
+    border: 6px solid #57CE6E; }
+
+  .mini-math {
+    border: 6px solid #1A92FF; }
+
+  .mini-english {
+    border: 6px solid #C94B6F; }
 
   .planet-row {
     margin: 3em auto 6em auto;
@@ -359,13 +378,16 @@
   .badges-row {
     max-width: 550px;
     margin: 2em 0 3em 0; } }
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -388,13 +410,16 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -498,13 +523,16 @@
     box-sizing: border-box;
     border-radius: 10px; }
 
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -559,8 +587,6 @@
 .planets-container {
   width: 90%;
   overflow: hidden; }
-  .planets-container p {
-    color: #fff; }
 
 .planet-row {
   width: 110%;
@@ -583,13 +609,16 @@
 .planet {
   margin: 0.5em auto; }
 
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -675,13 +704,16 @@
 
   .inner-neptune {
     margin-left: 1px; } }
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -765,13 +797,16 @@
   float: right;
   position: absolute; }
 
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -950,13 +985,16 @@
 .close-click-desktop p {
   padding-top: 0.2em; }
 
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
@@ -1027,13 +1065,16 @@
     border-bottom: 40px solid transparent;
     border-right: 60px solid #FBCC33; }
 
-.info-box, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .paragraph-outer, .popdown-menu-inner, .popside-menu-inner {
+.info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
   border: 2px solid #FBCC33;
   padding: 0.5em; }
 
 .info-box {
   padding: 0; }
+
+.paragraph-outer {
+  border: 2px solid #5C3AD8; }
 
 .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button {
   background-color: #fff;
