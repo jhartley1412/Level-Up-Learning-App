@@ -2,6 +2,11 @@
 @import "variables";
 
 
+.solar-system-everything{
+	background-image: url('../images/milky-way.jpg');
+	background-position: center;
+}
+
 .lesson-border{
 	@extend %border-outline;
 }
@@ -53,6 +58,10 @@
 .planets-container{
 	width: 90%;
 	overflow: hidden;
+
+	p{
+		color: #fff;
+	}
 }
 
 // individual planet container 

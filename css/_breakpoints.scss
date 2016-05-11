@@ -187,13 +187,18 @@
 		display: block;
 	}
 
+	.solar-system-everything{
+		background-size: 250%;
+		padding-bottom: 4em;
+	}
+
 	.status-bar{
 		background-color: #1F1E1E;
 		color: #fff;
 	}
 
 	.status-bar-container{
-		max-width: 550px;
+		max-width: 700px;
 	}
 
 	.status-bar-type{
@@ -362,6 +367,11 @@
 	// DESKTOP
 	.desktop-everything{
 		display: block;
+	}
+
+	.solar-system-everything{
+		background-size: 100%;
+		padding-bottom: 1em;
 	}
 
 	.logo{

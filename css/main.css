@@ -144,12 +144,16 @@
   .tablet-everything {
     display: block; }
 
+  .solar-system-everything {
+    background-size: 250%;
+    padding-bottom: 4em; }
+
   .status-bar {
     background-color: #1F1E1E;
     color: #fff; }
 
   .status-bar-container {
-    max-width: 550px; }
+    max-width: 700px; }
 
   .status-bar-type {
     margin: 0 auto;
@@ -258,6 +262,10 @@
 
   .desktop-everything {
     display: block; }
+
+  .solar-system-everything {
+    background-size: 100%;
+    padding-bottom: 1em; }
 
   .logo {
     width: 20%; }
@@ -519,6 +527,10 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
+.solar-system-everything {
+  background-image: url("../images/milky-way.jpg");
+  background-position: center; }
+
 .lesson-text p {
   margin-top: 0.2em; }
 
@@ -547,6 +559,8 @@
 .planets-container {
   width: 90%;
   overflow: hidden; }
+  .planets-container p {
+    color: #fff; }
 
 .planet-row {
   width: 110%;
@@ -740,7 +754,9 @@
   margin: 1em auto; }
 
 .astronaut-bg {
-  background-image: url("../images/astronaut-bg.jpg"); }
+  background-image: url("../images/lunar-surface.jpg");
+  background-size: 250%;
+  background-position: center; }
   .astronaut-bg h2 {
     color: #fff; }
 
