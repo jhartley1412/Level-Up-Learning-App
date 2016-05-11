@@ -1,7 +1,10 @@
-Tuesday, May 10th To Do
+Wednesday, May 11th To Do
 -------------------------
 
 - start making logo / name
+- add hover effects to desktop thumbnails
+- finish style guide
+- find background images
 
 
 

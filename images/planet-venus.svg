@@ -1,1 +1,28 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500"><defs><style>.cls-1{fill:url(#radial-gradient);}.cls-2{fill:#131313;}</style><radialGradient id="radial-gradient" cx="-7066.2" cy="250" r="245" gradientTransform="matrix(0.64, -0.77, -0.61, -0.51, 4945.28, -5034.47)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc56c"/><stop offset="1" stop-color="#ff9833"/></radialGradient></defs><title>planet-</title><circle class="cls-1" cx="250" cy="250" r="245"/><path class="cls-2" d="M156.66,239.19c0,23.56,10.68,42.66,23.84,42.66s23.83-19.1,23.83-42.66-10.67-42.66-23.83-42.66a16,16,0,0,0-10.8,4.63c6.4,1.66,10.8,5.1,10.8,9.08,0,5.61-8.77,10.17-19.58,10.17-0.61,0-1.22,0-1.82,0A71.46,71.46,0,0,0,156.66,239.19Z"/><path class="cls-2" d="M307.55,239.19c0,23.56,10.68,42.66,23.84,42.66s23.83-19.1,23.83-42.66-10.67-42.66-23.83-42.66a16,16,0,0,0-10.8,4.63c6.4,1.66,10.8,5.1,10.8,9.08,0,5.61-8.77,10.17-19.58,10.17-0.61,0-1.22,0-1.82,0A71.46,71.46,0,0,0,307.55,239.19Z"/><path class="cls-2" d="M176,335.58H335.51S315.89,428,253.21,428,176,335.58,176,335.58Z"/></svg>
+<svg id="Layer_1" class="venus-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+	
+	<defs>
+		<style>.cls-1{fill:url(#radial-gradient);}.cls-2{fill:#131313;}</style>
+
+		<radialGradient id="radial-gradient" cx="-7066.2" cy="250" r="245" gradientTransform="matrix(0.64, -0.77, -0.61, -0.51, 4945.28, -5034.47)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffc56c"/>
+			<stop offset="1" stop-color="#ff9833"/>
+		</radialGradient>
+
+	</defs>
+
+	<title>planet-</title>
+
+	<circle class="cls-1" cx="250" cy="250" r="245"/>
+
+	<path class="cls-2 left-eye" d="M156.66,239.19c0,23.56,10.68,42.66,23.84,42.66s23.83-19.1,23.83-42.66-10.67-42.66-23.83-42.66a16,16,0,0,0-10.8,4.63c6.4,1.66,10.8,5.1,10.8,9.08,0,5.61-8.77,10.17-19.58,10.17-0.61,0-1.22,0-1.82,0A71.46,71.46,0,0,0,156.66,239.19Z"/>
+	
+	<path class="cls-2 right-eye" d="M307.55,239.19c0,23.56,10.68,42.66,23.84,42.66s23.83-19.1,23.83-42.66-10.67-42.66-23.83-42.66a16,16,0,0,0-10.8,4.63c6.4,1.66,10.8,5.1,10.8,9.08,0,5.61-8.77,10.17-19.58,10.17-0.61,0-1.22,0-1.82,0A71.46,71.46,0,0,0,307.55,239.19Z"/>
+
+	<path class="cls-2 mouth" d="M176,335.58H335.51S315.89,428,253.21,428,176,335.58,176,335.58Z"/>
+
+</svg>
+
+
+
+
+

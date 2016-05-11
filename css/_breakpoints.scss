@@ -15,6 +15,25 @@
 		color: #1F1E1E;
 	}
 
+	.status-bar-container{
+		max-width: 400px;
+	}
+
+	.status-bar-type{
+		margin: 0 auto;
+		margin-left: 0.5em;
+	}
+
+	.status-bar-time{
+		margin: 0 auto;
+		margin-left: 17%;
+	}
+
+	.status-bar-health{
+		margin: 0 auto;
+		margin-right: 0.5em;
+	}
+
 	.thumbnail-container{
 		width: 90%;
 		max-width: 400px;
@@ -173,6 +192,29 @@
 		color: #fff;
 	}
 
+	.status-bar-container{
+		max-width: 550px;
+	}
+
+	.status-bar-type{
+		margin: 0 auto;
+		margin-left: 2em;
+	}
+
+	.status-bar-time{
+		margin: 0 auto;
+		margin-left: 39%;
+	}
+
+	.status-bar-health{
+		margin: 0 auto;
+		margin-right: 2em;
+	}
+
+	.logo{
+		width: 30%;
+	}
+
 	.header-button{
 		width: 38px;
 		float: right;
@@ -235,6 +277,10 @@
 		margin: 0.5em auto 3.5em auto;
 	}
 
+	.lesson-border{
+		margin-top: -2em;
+	}
+
 	.bottom-button-container{
 		width: 100%;
 		max-width: 100%;
@@ -242,6 +288,11 @@
 
 	.bottom-lesson-button{
 		max-width: 250px;
+		height: 40px;
+
+		p{
+			margin: 0.5em auto;
+		}
 	}
 
 
@@ -311,6 +362,10 @@
 	// DESKTOP
 	.desktop-everything{
 		display: block;
+	}
+
+	.logo{
+		width: 20%;
 	}
 
 	.header-button{

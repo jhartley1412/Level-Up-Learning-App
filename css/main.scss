@@ -7,7 +7,8 @@
 		"planet-breakpoints",
 		"you-did-it",
 		"badges",
-		"badge-popdown";
+		"badge-popdown",
+		"animations";
 
 
 
@@ -67,18 +68,53 @@ a{
 	height: 25px;
 }
 
-.status-bar-time{
+.status-bar-container{
+	width: 99%;
+	margin: 0 auto;
+}
+
+.status-bar-type, .status-bar-time, .status-bar-health{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 0.8em;
 	font-weight: 300;
-	text-align: center;
-	margin: 0 auto;
 	padding-top: 5px;
+}
+
+.status-bar-type{
+	float: left;
+
+	img{
+		width: 58px;
+	}
+}
+
+.status-bar-time{
+	float: left;
+}
+
+.status-bar-health{
+	float: right;
+
+	img{
+		width: 25px;
+	}
 }
 
 
 
+
+
 // HEADER BUTTONS & NAV
+
+.logo{
+	display: inline-block;
+	float: left;
+
+	img{
+		width: 100%;
+	}		
+}
+
 .button-container{
 	width: 30%;
 	float: right;
@@ -162,6 +198,7 @@ a{
 
 .tablet-header-container{
 	width: 90%;
+	max-width: 550px;
 	margin: 0 auto;
 	overflow: hidden;
 }
