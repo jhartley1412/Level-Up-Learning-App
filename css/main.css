@@ -557,6 +557,7 @@
     padding: 0.5em 0.7em; } }
 .solar-system-everything {
   background-image: url("../images/milky-way.jpg");
+  background-size: cover;
   background-position: center; }
 
 .lesson-text p {
@@ -787,7 +788,7 @@
 
 .astronaut-bg {
   background-image: url("../images/lunar-surface.jpg");
-  background-size: 250%;
+  background-size: cover;
   background-position: center; }
   .astronaut-bg h2 {
     color: #fff; }
@@ -839,13 +840,17 @@
 .badges-container {
   width: 93%;
   margin: 1em auto;
-  border-bottom: 13px solid #FBCC33;
   overflow: hidden; }
 
 .badge {
   width: 40%;
   margin: 0.5em 5%;
   float: left; }
+
+.shelf {
+  width: 98%;
+  margin: 0 auto;
+  display: block; }
 
 .science-type {
   color: #5C3AD8;

@@ -17,7 +17,6 @@
 .badges-container{
 	width: 93%;
 	margin: 1em auto;
-	border-bottom: 13px solid $outline-color;
 	overflow: hidden;
 }
 
@@ -25,6 +24,12 @@
 	width: 40%;
 	margin: 0.5em 5%;
 	float: left;
+}
+
+.shelf{
+	width: 98%;
+	margin: 0 auto;
+	display: block;
 }
 
 .science-type{
