@@ -1,8 +1,10 @@
 Thursday, May 11th To Do
 -------------------------
 
-- add hover effects to desktop thumbnails
-- finish style guide
+- create planet SVGs + code animations in html/css
+- change dropdown to % (test on iPad)
+- add shelf SVG to badge collection pages
+- darken lunar background
 
 
 
