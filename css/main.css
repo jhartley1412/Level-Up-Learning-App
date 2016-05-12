@@ -1308,7 +1308,7 @@ a {
   width: 200px;
   padding: 0.5em;
   top: 8%;
-  right: 10%;
+  right: 0;
   display: none; }
   .dropdown-menu p {
     color: #fff;
