@@ -1102,12 +1102,12 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-.mercury, .neptune {
-  animation: floating-fast 3s ease-in-out;
+.mercury {
+  animation: mercury-small 4s ease-in-out;
   animation-iteration-count: infinite; }
 
-.venus, .mars, .venus {
-  animation: floating-slow 2s ease-in-out;
+.neptune, .mars, .venus {
+  animation: floating-fast 3s ease-in-out;
   animation-iteration-count: infinite; }
 
 .earth, .jupiter {
@@ -1122,6 +1122,17 @@
   animation: tilting-left 3s ease-in-out;
   animation-iteration-count: infinite; }
 
+@keyframes mercury-small {
+  0% {
+    width: 50%; }
+  20% {
+    width: 40%; }
+  30% {
+    width: 60%; }
+  70% {
+    width: 60%; }
+  100% {
+    width: 50%; } }
 @keyframes floating-fast {
   0% {
     transform: translateY(0%); }
@@ -1129,16 +1140,6 @@
     transform: translateY(-10%); }
   100% {
     transform: translateY(0%); } }
-@keyframes floating-slow {
-  0% {
-    transform: transalteY(0%); }
-  20% {
-    transform: transalteY(10%); }
-  50% {
-    transform: translateY(-2%);
-    transform: transalteZ(5%); }
-  100% {
-    transform: transalteY(0%); } }
 @keyframes floating-reverse {
   0% {
     transform: transalteY(0%); }

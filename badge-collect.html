@@ -702,6 +702,13 @@
 
 		});
 
+
+		var today = new Date();
+
+		$('.status-bar-time').html( today.getHours() + ':' + today.getMinutes());
+		$('.weekday').html(today.toDateString().substring(0,3));
+		$('.date').html( today.toDateString() );
+
 	});
 
 </script>

@@ -2,13 +2,13 @@
 @import "variables";
 
 
-.mercury, .neptune{
-	animation: floating-fast 3s ease-in-out;
+.mercury{
+	animation: mercury-small 4s ease-in-out;
 	animation-iteration-count: infinite;
 }
 
-.venus, .mars, .venus{
-	animation: floating-slow 2s ease-in-out;
+.neptune, .mars, .venus{
+	animation: floating-fast 3s ease-in-out;
 	animation-iteration-count: infinite;
 }
 
@@ -16,7 +16,6 @@
 	animation: floating-reverse 2s ease-in-out;
 	animation-iteration-count: infinite;
 }
-
 
 .uranus{
 	animation: tilting-right 3s ease-in-out;
@@ -26,6 +25,29 @@
 .saturn{
 	animation: tilting-left 3s ease-in-out;
 	animation-iteration-count: infinite;
+}
+
+
+@keyframes mercury-small{
+	0%{
+		width: 50%;
+	}
+
+	20%{
+		width: 40%;
+	}
+
+	30%{
+		width: 60%;
+	}
+
+	70%{
+		width: 60%;
+	}
+
+	100%{
+		width: 50%;
+	}
 }
 
 
@@ -40,25 +62,6 @@
 
 	100%{
 		transform: translateY(0%);
-	}
-}
-
-@keyframes floating-slow{
-	0%{
-		transform: transalteY(0%);
-	}
-
-	20%{
-		transform: transalteY(10%);
-	}
-
-	50%{
-		transform: translateY(-2%);
-		transform: transalteZ(5%);
-	}
-
-	100%{
-		transform: transalteY(0%);
 	}
 }
 
