@@ -132,7 +132,7 @@
 				</div>
 
 				<div class="box-right">
-					<p> May 5th, 2016 </p>
+					<p class="current-date"> </p>
 				</div>
 
 			</div>
@@ -267,7 +267,7 @@
 					</div>
 
 					<div class="box-right">
-						<p> May 5th, 2016 </p>
+						<p class="current-date"> </p>
 					</div>
 
 				</div>
@@ -451,7 +451,7 @@
 				</div>
 
 				<div class="box-right">
-					<p> May 5th, 2016 </p>
+					<p class="current-date"> </p>
 				</div>
 
 			</div>
@@ -704,10 +704,56 @@
 
 
 		var today = new Date();
+		var dateMonth = new Date().getMonth();
+		var dateDay = new Date().getDate();
+		var dateYear = new Date().getFullYear();
+
+		var dashDate = '';
+		var jan = 'January';
+		var feb = 'February';
+		var mar = 'March';
+		var april = 'April';
+		var may = 'May';
+		var june = 'June';
+		var july = 'July';
+		var aug = 'August';
+		var sep = 'Septmeber';
+		var oct = 'October';
+		var nov = 'November';
+		var dec = 'December';
 
 		$('.status-bar-time').html( today.getHours() + ':' + today.getMinutes());
-		$('.weekday').html(today.toDateString().substring(0,3));
+		$('.weekday').html(today.toDateString().substring(3, 10));
 		$('.date').html( today.toDateString() );
+
+		if(dateMonth == 0){
+			dashDate = jan;
+		} else if(dateMonth == 1){
+			dashDate = feb;
+		} else if(dateMonth == 2){
+			dashDate = mar;
+		} else if(dateMonth == 3){
+			dashDate = april;
+		} else if(dateMonth == 4){
+			dashDate = may;
+		} else if(dateMonth == 5){
+			dashDate = june;
+		} else if(dateMonth == 6){
+			dashDate = july;
+		} else if(dateMonth == 7){
+			dashDate = aug;
+		} else if(dateMonth == 8){
+			dashDate = sep;
+		} else if(dateMonth == 9){
+			dashDate = oct;
+		} else if(dateMonth == 10){
+			dashDate = nov;
+		} else{
+			dashDate = dec;
+		}
+
+		$('.current-date').append(dashDate + ' ' + dateDay + ', ' + dateYear);
+		
 
 	});
 
