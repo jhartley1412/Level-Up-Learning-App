@@ -929,7 +929,7 @@
   overflow: hidden;
   background-color: #F0F0F0;
   position: absolute;
-  top: 475px;
+  top: 595%;
   left: 0.5%; }
 
 .popdown-left {
@@ -1032,16 +1032,16 @@
   .popdown-carrot:after {
     position: absolute;
     content: "";
-    top: 424px;
-    left: 180px;
+    top: 559%;
+    left: 235%;
     border-left: 36px solid transparent;
     border-right: 36px solid transparent;
     border-bottom: 54px solid #F0F0F0; }
   .popdown-carrot > div {
     width: 0;
     position: relative;
-    top: 417px;
-    left: 176.5px;
+    top: 550%;
+    left: 231%;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-bottom: 60px solid #FBCC33; }
@@ -1308,7 +1308,7 @@ a {
   width: 200px;
   padding: 0.5em;
   top: 8%;
-  right: 0;
+  right: 10%;
   display: none; }
   .dropdown-menu p {
     color: #fff;

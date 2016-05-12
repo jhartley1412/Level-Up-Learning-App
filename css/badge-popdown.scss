@@ -18,8 +18,8 @@ $border-real-size: $size + ($border-size * 2);
 	&:after{
 		position:absolute;
 	    content:"";
-	    top: 424px;
-		left: 180px;
+	    top: 559%;
+		left: 235%;
 
 		border-left: $size solid transparent;
 	    border-right: $size solid transparent;
@@ -29,8 +29,8 @@ $border-real-size: $size + ($border-size * 2);
 	> div{
 		width: 0;
 	    position: relative;
-	    top: 417px;
-	    left: 176.5px;
+	    top: 550%;
+	    left: 231%;
 	    border-left: $border-real-size solid transparent;
 	    border-right: $border-real-size solid transparent;
 	    border-bottom: ($border-real-size * 1.5) solid $outline-color;
