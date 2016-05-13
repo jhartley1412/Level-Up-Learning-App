@@ -988,7 +988,8 @@
   .badge-info .back-button {
     width: 35%;
     height: 40px;
-    padding: 0 1em; }
+    padding: 0 1em;
+    margin-bottom: 0.5em; }
     .badge-info .back-button p {
       margin: 0.5em auto; }
 
