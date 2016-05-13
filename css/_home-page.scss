@@ -130,6 +130,97 @@
 }
 
 
+// DESKTOP DASHBOARD LESSONS
+
+.desktop-list-container{
+	width: 99%;
+	margin-left: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.list-item-container{
+	width: 100%;
+	margin: 1em auto 2.5em auto;
+}
+
+.list-item{
+	width: 90%;
+	margin: 1em auto;
+	margin-left: 0;
+	padding: 2em 0.5em;
+	position: relative;
+}
+
+.list-h3{
+	width: 94%;
+}
+
+.list-science{
+	background: url("../images/space-thumbnail.jpg") center center no-repeat;
+	background-size: cover;
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,$science-color,$text-color);
+		opacity: .6; 
+		z-index: 1;
+	}
+}
+
+.list-history{
+	background: url("../images/history-thumbnail.jpg") center center no-repeat;
+	background-size: cover;
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,$history-color,$text-color);
+		opacity: .6; 
+		z-index: 1;
+	}
+}
+
+.list-math{
+	background: url("../images/money-thumbnail.jpg") center center no-repeat;
+	background-size: cover;
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,$math-color,$text-color);
+		opacity: .6; 
+		z-index: 1;
+	}
+}
+
+.list-item-title{
+	font-size: 2em;
+	margin: 0;
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	z-index: 2;
+}
+
+.no-lessons-text{
+	color: lighten($text-color, 10%);
+}
+
+
 
 
 

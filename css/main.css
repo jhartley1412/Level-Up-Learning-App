@@ -320,16 +320,16 @@
     font-size: 1em; }
 
   .science {
-    border: 10px solid #5C3AD8; }
+    border: 5px solid #5C3AD8; }
 
   .history {
-    border: 10px solid #57CE6E; }
+    border: 5px solid #57CE6E; }
 
   .math {
-    border: 10px solid #1A92FF; }
+    border: 5px solid #1A92FF; }
 
   .english {
-    border: 10px solid #C94B6F; }
+    border: 5px solid #C94B6F; }
 
   .mini-science {
     border: 6px solid #5C3AD8; }
@@ -522,6 +522,79 @@
   .nav-list .mini-thumbnail {
     box-sizing: border-box;
     border-radius: 10px; }
+
+.desktop-list-container {
+  width: 99%;
+  margin-left: 0;
+  overflow: hidden;
+  position: relative; }
+
+.list-item-container {
+  width: 100%;
+  margin: 1em auto 2.5em auto; }
+
+.list-item {
+  width: 90%;
+  margin: 1em auto;
+  margin-left: 0;
+  padding: 2em 0.5em;
+  position: relative; }
+
+.list-h3 {
+  width: 94%; }
+
+.list-science {
+  background: url("../images/space-thumbnail.jpg") center center no-repeat;
+  background-size: cover; }
+  .list-science:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #5C3AD8, #444444);
+    opacity: .6;
+    z-index: 1; }
+
+.list-history {
+  background: url("../images/history-thumbnail.jpg") center center no-repeat;
+  background-size: cover; }
+  .list-history:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #57CE6E, #444444);
+    opacity: .6;
+    z-index: 1; }
+
+.list-math {
+  background: url("../images/money-thumbnail.jpg") center center no-repeat;
+  background-size: cover; }
+  .list-math:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #1A92FF, #444444);
+    opacity: .6;
+    z-index: 1; }
+
+.list-item-title {
+  font-size: 2em;
+  margin: 0;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  z-index: 2; }
+
+.no-lessons-text {
+  color: #5e5e5e; }
 
 .info-box, .paragraph-outer, .nav-button-container, .bottom-lesson-button, .top-lesson-button, .complete-lesson-button, .badge-info .back-button, .dashboard-border, .desktop-nav, .lesson-border, .popdown-menu-inner, .popside-menu-inner {
   box-sizing: border-box;
