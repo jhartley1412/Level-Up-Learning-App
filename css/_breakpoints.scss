@@ -297,11 +297,6 @@
 
 	.bottom-lesson-button{
 		max-width: 250px;
-		height: 40px;
-
-		p{
-			margin: 0.5em auto;
-		}
 	}
 
 
@@ -327,6 +322,10 @@
 	.astronaut-bg{
 		padding-bottom: 1em;
 		background-size: 150%;
+
+		.paragraph{
+			color: $text-color;
+		}
 	}
 
 	.astronaut-popout{

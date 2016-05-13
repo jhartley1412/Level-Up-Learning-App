@@ -27,6 +27,7 @@ $english-color: #C94B6F;
 	@extend %border-outline;
 
 	border: 2px solid $science-color;
+	box-shadow: 3px 3px 5px darken($bg-color, 13%);
 }
 
 %button-borders{
@@ -36,6 +37,11 @@ $english-color: #C94B6F;
 	color: $text-color;
 	text-align: center;
 	padding: 0 0.2em;
+	height: 40px;
+	
+	p{
+		margin: 0.5em auto;
+	}
 	
 	&:hover{
 		background-color: lighten($outline-color, 30%);
