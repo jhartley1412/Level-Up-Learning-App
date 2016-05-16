@@ -1388,7 +1388,7 @@ a {
 
 .tablet-container {
   width: 90%;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0.5em auto;
   overflow: hidden;
   position: relative;
@@ -1410,13 +1410,13 @@ a {
 
 .tablet-header-container {
   width: 90%;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   overflow: hidden; }
 
 .dropdown-container-outer {
   width: 90%;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   position: relative;
   z-index: 2; }
