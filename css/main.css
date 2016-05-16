@@ -27,9 +27,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -435,9 +435,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -470,9 +470,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -659,9 +659,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -746,9 +746,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -844,9 +844,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -939,9 +939,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -1135,9 +1135,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
@@ -1218,9 +1218,9 @@
   background-color: #F0F0F0;
   line-height: 1.5; }
 
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
-    padding: 0.2em 0.5em; } }
+    padding: 0.2em 1em; } }
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
