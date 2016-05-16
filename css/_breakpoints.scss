@@ -79,11 +79,12 @@
 	// PLANETS LESSON PAGE
 	// ———————————————————————————————————
 	
-	.solar-system-1{
+	.solar-system-1, .you-did-it-html{
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
+		padding-bottom: 25%;
 	}
 
 	.planets-container{
@@ -131,6 +132,10 @@
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
 	
+	.you-did-it-html{
+		background-image: none;
+	}
+
 	.you-did-it{
 		width: 100%;
 	}
@@ -280,10 +285,7 @@
 	// ———————————————————————————————————
 	
 	.solar-system-1{
-		background-size: 250%;
-		-webkit-background-size: 250%;
-		-moz-background-size: 250%;
-		-o-background-size: 250%;
+		padding-bottom: 25%;
 	}
 
 	.planets-container{
@@ -311,6 +313,17 @@
 
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
+	
+	.you-did-it-html{
+		background-image: url('../images/lunar-surface.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		padding-bottom: 25%;
+	}
 
 	.solar-system-badge{
 		width: 200px;
@@ -519,6 +532,10 @@
 
 	// YOU DID IT PAGE
 	// ———————————————————————————————————
+	
+	.you-did-it-html{
+		padding-bottom: 10%;
+	}
 
 	.solar-system-badge{
 		margin-left: 18%;

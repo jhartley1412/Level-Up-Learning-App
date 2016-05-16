@@ -85,11 +85,12 @@
   .english {
     border: 8px solid #C94B6F; }
 
-  .solar-system-1 {
+  .solar-system-1, .you-did-it-html {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; }
+    -o-background-size: cover;
+    padding-bottom: 25%; }
 
   .planets-container {
     margin: 0 auto;
@@ -121,6 +122,9 @@
   .continue-button {
     margin-left: 2.5%;
     margin-right: 0; }
+
+  .you-did-it-html {
+    background-image: none; }
 
   .you-did-it {
     width: 100%; }
@@ -217,10 +221,7 @@
     border: 8px solid #C94B6F; }
 
   .solar-system-1 {
-    background-size: 250%;
-    -webkit-background-size: 250%;
-    -moz-background-size: 250%;
-    -o-background-size: 250%; }
+    padding-bottom: 25%; }
 
   .planets-container {
     margin: 1em auto;
@@ -238,6 +239,16 @@
 
   .bottom-lesson-button {
     max-width: 250px; }
+
+  .you-did-it-html {
+    background-image: url("../images/lunar-surface.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 25%; }
 
   .solar-system-badge {
     width: 200px;
@@ -376,6 +387,9 @@
 
   .continue-button {
     margin: 0; }
+
+  .you-did-it-html {
+    padding-bottom: 10%; }
 
   .solar-system-badge {
     margin-left: 18%; }
@@ -886,7 +900,6 @@
   margin: 1em auto; }
 
 .astronaut-bg {
-  background-image: url("../images/lunar-surface.jpg");
   background-size: cover;
   background-position: center; }
   .astronaut-bg h2 {
@@ -1280,6 +1293,10 @@
   background-image: url("../images/milky-way.jpg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.solar-system-1, .you-did-it-html {
+  max-height: 100%;
+  overflow: hidden; }
 
 .bold {
   font-weight: 700;
