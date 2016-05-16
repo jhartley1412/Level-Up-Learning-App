@@ -89,6 +89,7 @@
     border: 8px solid #C94B6F; }
 
   .solar-system-1, .you-did-it-html {
+    max-width: 100%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
