@@ -4,10 +4,14 @@
 
 // DEFAULT MOBILE SIZE
 @media (min-width: 10px){
-	
+
 	// MOBILE
 	.mobile-everything{
 		display: block;
+	}
+
+	html{
+		padding-bottom: 25%;
 	}
 
 	.status-bar{
@@ -84,7 +88,7 @@
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		padding-bottom: 25%;
+		padding-bottom: 50%;
 	}
 
 	.planets-container{
@@ -195,6 +199,10 @@
 	// MOBILE
 	.mobile-everything{
 		display: none;
+	}
+
+	html{
+		padding-bottom: 0;
 	}
 
 

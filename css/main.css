@@ -37,6 +37,9 @@
   .mobile-everything {
     display: block; }
 
+  html {
+    padding-bottom: 25%; }
+
   .status-bar {
     background-color: #FFFFFF;
     color: #1F1E1E; }
@@ -90,7 +93,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 25%; }
+    padding-bottom: 50%; }
 
   .planets-container {
     margin: 0 auto;
@@ -158,6 +161,9 @@
 @media (min-width: 590px) {
   .mobile-everything {
     display: none; }
+
+  html {
+    padding-bottom: 0; }
 
   .tablet-everything {
     display: block; }
