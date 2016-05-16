@@ -27,7 +27,7 @@ $english-color: #C94B6F;
 	@extend %border-outline;
 
 	border: 2px solid $science-color;
-	box-shadow: 3px 3px 5px darken($bg-color, 13%);
+	// box-shadow: 3px 3px 5px darken($bg-color, 13%);
 }
 
 %button-borders{
