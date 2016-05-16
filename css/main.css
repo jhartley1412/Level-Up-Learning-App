@@ -85,6 +85,12 @@
   .english {
     border: 8px solid #C94B6F; }
 
+  .solar-system-1 {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+
   .planets-container {
     margin: 0 auto;
     margin-top: -1em;
@@ -152,10 +158,6 @@
   .tablet-everything {
     display: block; }
 
-  .solar-system-everything {
-    background-size: 250%;
-    padding-bottom: 4em; }
-
   .status-bar {
     background-color: #1F1E1E;
     color: #fff; }
@@ -213,6 +215,12 @@
 
   .english {
     border: 8px solid #C94B6F; }
+
+  .solar-system-1 {
+    background-size: 250%;
+    -webkit-background-size: 250%;
+    -moz-background-size: 250%;
+    -o-background-size: 250%; }
 
   .planets-container {
     margin: 1em auto;
@@ -342,6 +350,12 @@
 
   .mini-english {
     border: 6px solid #C94B6F; }
+
+  .solar-system-1 {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
 
   .planet-row {
     margin: 3em auto 6em auto;
@@ -637,11 +651,6 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-.solar-system-everything {
-  background-image: url("../images/milky-way.jpg");
-  background-size: cover;
-  background-position: center; }
-
 .lesson-text p {
   margin-top: 0.2em; }
 
@@ -1267,6 +1276,11 @@
 .mobile-everything, .tablet-everything, .desktop-everything {
   overflow: hidden; }
 
+.solar-system-1 {
+  background-image: url("../images/milky-way.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .bold {
   font-weight: 700;
   letter-spacing: 0; }
@@ -1424,7 +1438,7 @@ a {
 
 .dropdown-button-container {
   overflow: hidden;
-  margin: 1.2em 0 1.2em 0; }
+  margin: 1.7em 0 1.2em 0; }
 
 .dropdown-button {
   width: 30px;

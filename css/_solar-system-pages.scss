@@ -2,11 +2,11 @@
 @import "variables";
 
 
-.solar-system-everything{
-	background-image: url('../images/milky-way.jpg');
-	background-size: cover;
-	background-position: center;
-}
+// .solar-system-everything{
+// 	background-image: url('../images/milky-way.jpg');
+// 	background-size: cover;
+// 	background-position: center;
+// }
 
 .lesson-border{
 	@extend %border-outline;
