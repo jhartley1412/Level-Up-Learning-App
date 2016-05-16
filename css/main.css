@@ -33,7 +33,7 @@
 @media (min-width: 590px) {
   .dashboard-text, .lesson-text, .paragraph-inner {
     padding: 0.5em 0.7em; } }
-@media (min-width: 400px) {
+@media (min-width: 10px) {
   .mobile-everything {
     display: block; }
 
