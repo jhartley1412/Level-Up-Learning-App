@@ -1294,7 +1294,8 @@ body {
 
 header {
   background-color: #F59F06;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 2; }
 
 h1 {
   margin: 0.7em auto;
@@ -1346,9 +1347,13 @@ a {
 
 .logo {
   display: inline-block;
-  float: left; }
+  float: left;
+  margin-top: 0.4em; }
   .logo img {
-    width: 100%; }
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0.01em;
+    border: 1px solid #fff; }
 
 .button-container {
   width: 30%;

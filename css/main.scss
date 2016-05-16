@@ -39,6 +39,7 @@ body{
 header{
 	background-color: $header-color;
 	overflow: hidden;
+	z-index: 2;
 }
 
 h1{
@@ -115,9 +116,14 @@ a{
 .logo{
 	display: inline-block;
 	float: left;
+	margin-top: 0.4em;
 
 	img{
-		width: 100%;
+		width: 80%;
+		box-sizing: border-box;
+		padding: 0.01em;
+		border: 1px solid #fff;
+
 	}		
 }
 
