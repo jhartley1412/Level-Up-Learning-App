@@ -740,16 +740,16 @@
     padding: 0.5em 0.7em; } }
 @media (min-width: 400px) {
   .mercury {
-    width: 35px; }
+    width: 15%; }
 
   .venus, .earth, .mars, .uranus, .neptune {
-    width: 50px; }
+    width: 80%; }
 
   .jupiter {
-    width: 70px; }
+    width: 100%; }
 
   .saturn {
-    width: 80px; }
+    width: 95%; }
 
   .inner-jupiter {
     margin-left: -7px; }
